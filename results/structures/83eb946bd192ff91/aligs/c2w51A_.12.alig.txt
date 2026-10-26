@@ -1,0 +1,32 @@
+12 c2w51A_ Probab=100.00  E-value=5.9e-48  Score=360.88  Aligned_cols=137  Identities=100%  Similarity=1.552  Sum_probs=0.0  Template_Neff=6.983
+
+Q ss_pred             cCcccchHHHHHHHHHHHHhhhcccccCHHHHHHHHHHHHHhccCcccceEEEeeccchh
+Q Undefined        55 LRPGDCEVCISYLGRFYQDLKDRDVTFSPATIENELIKFCREARGKENRLCYYIGATDDA  114 (680)
+Q Consensus        55 ~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~cy~~g~~~~~  114 (680)
+                      +++++||||++||++|+++|.+.+..++.+.||++|.++|...++||+|||||+||++||
+T Consensus         1 ~~~~~CeVC~~~l~~~~~~~~~~~~~~~~~~~e~~~~~~C~~~~~ke~r~Cyyig~~~~s   60 (137)
+T c2w51A_           1 LRPGDCEVCISYLGRFYQDLKDRDVTFSPATIENELIKFCREARGKENRLCYYIGATDDA   60 (137)
+T ss_dssp             CCTTSSHHHHHHHHHHHHHHHHTTCCCCHHHHHHHHHHHHTTCCHHHHHHHHHTTCSSSC
+T ss_pred             CCCccccccHHHHHHHHhhcccccCCCCHHHHHHHHHHHHHhcCCcCcceeeeecCccch
+
+
+Q ss_pred             HHHHHHHhhccccccccHHHHHHHHHhhhhhhhhhhhhcccchhhcchhcccHHHHHHHH
+Q Undefined       115 ATKIINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQIDLSTVDLKKLRVKELKKIL  174 (680)
+Q Consensus       115 ~~~~~~~~~~~~~~~~~~~~~c~~l~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~l~~~~  174 (680)
+                      ||+|++||++||||+||++|||++|+++|+|||+|+|+++|||+++||+||||++||+||
+T Consensus        61 at~~~~~vs~pls~~~p~~kiC~~L~k~d~qiC~l~y~k~~d~~~~dl~K~~vk~Lk~iL  120 (137)
+T c2w51A_          61 ATKIINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQIDLSTVDLKKLRVKELKKIL  120 (137)
+T ss_dssp             CCGGGHHHHHHHHTTCCHHHHHHHHHHHCSTTTTCCCCCCCCCCCSSCCTTHHHHHHHHT
+T ss_pred             hhhhhhhhhhccccCCChhhhhhhhccCcccccceeeccccccchhhhhhhcHHHHHHHH
+
+
+Q ss_pred             HHcCcccceeeechhHH
+Q Undefined       175 DDWGETCKGCAEKSDYI  191 (680)
+Q Consensus       175 ~~~~~~~~~~~e~~~~~  191 (680)
+                      ++||+.|+||+||+|||
+T Consensus       121 ~~~g~~C~gC~EK~dfv  137 (137)
+T c2w51A_         121 DDWGETCKGCAEKSDYI  137 (137)
+T ss_dssp             TCCCTTCSSCHHHHTTC
+T ss_pred             HhcCCccccccccccCC
+
+

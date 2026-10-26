@@ -1,0 +1,62 @@
+136 c3ejjC_ Probab=99.72  E-value=2.1e-16  Score=141.46  Aligned_cols=268  Identities=16%  Similarity=0.148  Sum_probs=0.0  Template_Neff=14.153
+
+Q ss_pred             ceeeecccccccccCCCceEEEEEEcCccCCceEEEEeecCccccccccccccccccccC
+Q Undefined       339 KVSVFVPPRDGFFGNPRKSKLICQATGFSPRQIQVSWLREGKQVGSGVTTDQVQAEAKES  398 (680)
+Q Consensus       339 ~v~i~~pp~d~~~~~~~~a~L~C~vsGF~P~~I~VtW~KDG~~L~S~~~t~~~~~e~~~~  398 (680)
+                      ...+...+.......+...+|.|.+.+      .+.|.+++...........        
+T Consensus         1 ~~~~~~~~~~~~~~~g~~~~l~C~~~~------~~~w~~~~~~~~~~~~~~~--------   46 (272)
+T c3ejjC_           1 APVIEPSGPELVVEPGETVTLRCVSNG------SVEWDGPISPYWTLDPESP--------   46 (272)
+T ss_dssp             CCEEESCSSEEEECTTCCEEEEEECSS------CCEEECSCSSSSEECCCSS--------
+T ss_pred             CceecCCCCEEEEeCCCeEEEEECcCC------cccEEecCcceEEeecccC--------
+
+
+Q ss_pred             CCcceeeeEEEEeccccccCCCeEEEEEEecCCccccccccccccccCCCceEEEecCCc
+Q Undefined       399 GPTTYKVTSTLTIKESDWLSQSMFTCRVDHRGLTFQQNASSMCVPDQDTAIRVFAIPPSF  458 (680)
+Q Consensus       399 ~dgtfs~sS~LtI~~~~~~d~g~YTC~V~h~~~t~~~~~~~~~~~~~~~~p~V~i~pPs~  458 (680)
+                             .+.|.|......+.|.|+|.+.+         ...........+..+...+..
+T Consensus        47 -------~~~l~i~~~~~~~~g~y~c~~~~---------~~~~~~~v~~~~~~~~~~~~~   90 (272)
+T c3ejjC_          47 -------GSTLTTRNATFKNTGTYRCTELE---------STTIHLYVKDPAHSWNLLAQE   90 (272)
+T ss_dssp             -------CCEEEESSCCGGGCEEEEEECSS---------CEEEEEEECCSSCSEEESCSE
+T ss_pred             -------ccEEEECCCCHHhCeEEEEEeCC---------ceEEEEEEcCCccccccCCcc
+
+
+Q ss_pred             ceEeeCCceEEEEEEecCCCcceeEEEEEECCccccCCcccceeccCCceEEEEEEEEec
+Q Undefined       459 ASIFLTKSTKLTCLVTDLTTYDSVTISWTRQNGEAVKTHTNISESHPNATFSAVGEASIC  518 (680)
+Q Consensus       459 ~~i~~g~svtLtC~VsG~p~P~~vtIsW~kdg~ev~~s~t~~~~~~~nGt~~~~S~L~I~  518 (680)
+                      ..+..|..++|.|.+.+.+.+.  .+.|++++................       .|.|.
+T Consensus        91 ~~~~~g~~~~l~c~~~~~~~~~--~~~w~~~~~~~~~~~~~~~~~~~~-------~l~i~  141 (272)
+T c3ejjC_          91 VTVVEGQEAVLPCLITDPALKD--SVSLMREGGRQVLRKTVYFFSPWR-------GFIIR  141 (272)
+T ss_dssp             EEEETTSCEEECEEESCGGGGG--SEEEEEGGGEE--TTCCEEEETTT-------EEEES
+T ss_pred             eEEEeCCCEEEEEeCCCCCCCc--eEEEEECCceeecccceEEEccCC-------cEEEe
+
+
+Q ss_pred             cccccCCceEEEEEEcCCCCcccceeEEeeccCcccCceeEeecCCcceeecCCeEEEEE
+Q Undefined       519 EDDWNSGERFTCTVTHTDLPSPLKQTISRPKGVALHRPDVYLLPPAREQLNLRESATITC  578 (680)
+Q Consensus       519 ~~~w~dgg~YtC~A~n~~g~~p~~~tis~~~~~~~~~P~V~~~pP~~e~v~~Ge~vTLtC  578 (680)
+                      .....+.|.|.|.+.+. ........+..........|......+....+..|+.++|.|
+T Consensus       142 ~~~~~~~g~y~c~~~~~-~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~g~~~~l~c  200 (272)
+T c3ejjC_         142 KAKVLDSNTYVCKTMVN-GRESTSTGIWLKVNRVHPEPPQIKLEPSKLVRIRGEAAQIVC  200 (272)
+T ss_dssp             SCCGGGCEEEEEEEEET-TEEEECCCEEEEEESSCCC--EEEEESSSEECCSSSCEEEEE
+T ss_pred             ecccccCceEEEEEecC-CCcceeEEEEEEEeEccCCCCccccCCcceeEecCCcEEEEE
+
+
+Q ss_pred             EEeccCCcceEEEEEECCEEcccccccccccccccCCCcceEEEEEEEecHhhcccCceE
+Q Undefined       579 LVTGFSPADVFVQWAQRGQPLSPEKYVTSAPMPEPQAPGRYFAHSILTVSEEEWNTGETY  638 (680)
+Q Consensus       579 ~VsGf~P~dI~VtWlknG~~L~~~~~~t~~P~~~~~~dgtys~~S~LtIs~s~~~~gg~Y  638 (680)
+                      .+.+ .|....+.|++++..+.......       .....+...+.|+|.....++.+.|
+T Consensus       201 ~~~~-~~~~~~~~w~~~~~~~~~~~~~~-------~~~~~~~~~~~l~i~~~~~~~~g~y  252 (272)
+T c3ejjC_         201 SATN-AEVGFNVILKRGDTKLEIPLNSD-------FQDNYYKKVRALSLNAVDFQDAGIY  252 (272)
+T ss_dssp             EEEE-SSSCCEEEEEETTEE-CCCEEEE-------ECSSSEEEEEEEEESSCCSSSCEEE
+T ss_pred             ecCC-CCccEEEEEEeCCcceeeccccc-------cCCCcccccceEEEeecChhcCceE
+
+
+Q ss_pred             EEEEEcCCcCCceeee
+Q Undefined       639 TCVVAHEALPNRVTER  654 (680)
+Q Consensus       639 TC~V~Heal~~~~t~~  654 (680)
+                      +|.+.|..........
+T Consensus       253 ~C~~~n~~~~~~~~~~  268 (272)
+T c3ejjC_         253 SCVASNDVGTRTATMN  268 (272)
+T ss_dssp             EEEEECSSCEEEEEEE
+T ss_pred             EEEEecCCCcccceEE
+
+

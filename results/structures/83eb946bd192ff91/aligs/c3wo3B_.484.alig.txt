@@ -1,0 +1,62 @@
+484 c3wo3B_ Probab=99.77  E-value=9.4e-18  Score=157.21  Aligned_cols=277  Identities=10%  Similarity=0.059  Sum_probs=0.0  Template_Neff=13.207
+
+Q ss_pred             cccccccCCCceEEEEEEcCccCCceEEEEee-cCccccccccccccccccccCCCccee
+Q Undefined       346 PRDGFFGNPRKSKLICQATGFSPRQIQVSWLR-EGKQVGSGVTTDQVQAEAKESGPTTYK  404 (680)
+Q Consensus       346 p~d~~~~~~~~a~L~C~vsGF~P~~I~VtW~K-DG~~L~S~~~t~~~~~e~~~~~dgtfs  404 (680)
+                      |.......+..+.|.|.+.+..|.. .++|++ ++.....        ............
+T Consensus         8 ~~~~~~~~g~~~~l~C~~~~~~~~~-~~~W~~~~~~~~~~--------~~~~~~~~~~~~   58 (295)
+T c3wo3B_           8 PHHITVVEGEPFYLKHCSCSLAHET-TKSWYKSSGSQEHV--------ELNPRSSSRIAL   58 (295)
+T ss_dssp             SE-EEEETTEEEEEECSCTTTTTSS-CEEEEEECTTCCCE--------ECCTTSSTTEEE
+T ss_pred             CccEEEeCCCEEEEECCCCCCCCCc-EEEEEEcCCCCcce--------eeccCCCccEEE
+
+
+Q ss_pred             eeEEEEeccccccCCCeEEEEEEecCCccccccccccccccCCCceEEEecCCcceEeeC
+Q Undefined       405 VTSTLTIKESDWLSQSMFTCRVDHRGLTFQQNASSMCVPDQDTAIRVFAIPPSFASIFLT  464 (680)
+Q Consensus       405 ~sS~LtI~~~~~~d~g~YTC~V~h~~~t~~~~~~~~~~~~~~~~p~V~i~pPs~~~i~~g  464 (680)
+                      ....|.|......|.|.|+|.+.+..     ......+............+.....+..|
+T Consensus        59 ~~~~l~i~~~~~~d~g~y~C~~~~~~-----~~~~l~v~~~~~~~~~~~~~~~~~~~~~g  113 (295)
+T c3wo3B_          59 HDCVLEFWPVELNDTGSYFFQMKNYT-----QKWKLNVIRRNKHSCFTERQVTSKIVEVK  113 (295)
+T ss_dssp             CSSEEEEEEECGGGCEEEEEEETTEE-----EEEEEEEE--CTTSSSCGGGEEEEEEETT
+T ss_pred             eCCEEEEcccccccCEEEEEEEEcCc-----eEEEEEEEecCCCccCCCCcceeEEEEcC
+
+
+Q ss_pred             CceEEEEEEecCC--CcceeEEEEEECCccccCCcccceeccCCceEEEEEEEEeccccc
+Q Undefined       465 KSTKLTCLVTDLT--TYDSVTISWTRQNGEAVKTHTNISESHPNATFSAVGEASICEDDW  522 (680)
+Q Consensus       465 ~svtLtC~VsG~p--~P~~vtIsW~kdg~ev~~s~t~~~~~~~nGt~~~~S~L~I~~~~w  522 (680)
+                      ..++|.|.+.+.+  .+   .+.|++++..+..             ......|.|.....
+T Consensus       114 ~~~~l~c~~~~~~~~~~---~~~w~~~~~~~~~-------------~~~~~~l~i~~~~~  157 (295)
+T c3wo3B_         114 KFFQITCENSYYQTLVN---STSLYKNCKKLLL-------------ENNKNPTIKKNAEF  157 (295)
+T ss_dssp             SEEEEECCCTTTTTTEE---EEEEEESSCBCCC-------------SCSSSCEEEEECCG
+T ss_pred             CccEEECCCccccCCCC---ceEEEECCeECcc-------------cCCCceEEEccCce
+
+
+Q ss_pred             cCCceEEEEEEcCCCC----cccceeEEeeccCcccCceeEeecCCcceeecCCeEEEEE
+Q Undefined       523 NSGERFTCTVTHTDLP----SPLKQTISRPKGVALHRPDVYLLPPAREQLNLRESATITC  578 (680)
+Q Consensus       523 ~dgg~YtC~A~n~~g~----~p~~~tis~~~~~~~~~P~V~~~pP~~e~v~~Ge~vTLtC  578 (680)
+                      ++.|.|+|.+.+....    ......+..........|.+....+....+..|+.++|.|
+T Consensus       158 ~~~g~y~c~~~~~~~~~~~~~~~~~~~~v~~~~~~~~p~~~~~~~~~~~~~~g~~~~l~C  217 (295)
+T c3wo3B_         158 EDQGYYSCVHFLHHNGKLFNITKTFNITIVEDRSNIVPVLLGPKLNHVAVELGKNVRLNC  217 (295)
+T ss_dssp             GGCEEEEEEEEEEETTEEEEEEEEEEEEEECCCCCCCCEECSCSEEEEECCTTSCEEEEE
+T ss_pred             ecCeEEEEEEEEccCCEEEEEEEEEEEEEEcCCCCCCCEEecCCCceEEEeCCCcEEEEE
+
+
+Q ss_pred             EEeccCCcceEEEEEECCEEcccccccccccccccCCCcceEEEEEEEecHhhccc-Cce
+Q Undefined       579 LVTGFSPADVFVQWAQRGQPLSPEKYVTSAPMPEPQAPGRYFAHSILTVSEEEWNT-GET  637 (680)
+Q Consensus       579 ~VsGf~P~dI~VtWlknG~~L~~~~~~t~~P~~~~~~dgtys~~S~LtIs~s~~~~-gg~  637 (680)
+                      .+.+  ++...+.|+++|..+.........-......++.+...+.|+|.....++ .+.
+T Consensus       218 ~~~~--~~~~~~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~i~~~~~~d~~g~  275 (295)
+T c3wo3B_         218 SALL--NEEDVIYWMFGEENGSDPNIHEEKEMRIMTPEGKWHASKVLRIENIGESNLNVL  275 (295)
+T ss_dssp             EEEE--CTTCEEEEESCCTTCCCTTEEE---EEEECTTSCEEEEEEEEECSCCTTTBTCE
+T ss_pred             EEEe--CCCCEEEEEECCccCCCcceeccccEEEeccCCCEEEEEEEEEecCCHHHcCCc
+
+
+Q ss_pred             EEEEEEcCCcCCceeee
+Q Undefined       638 YTCVVAHEALPNRVTER  654 (680)
+Q Consensus       638 YTC~V~Heal~~~~t~~  654 (680)
+                      |+|.+.+..........
+T Consensus       276 y~C~~~n~~g~~~~~~~  292 (295)
+T c3wo3B_         276 YNCTVASTGGTDTKSFI  292 (295)
+T ss_dssp             EEEEEEETTEEEEEEEE
+T ss_pred             eEEEEEcCCCceeEEEE
+
+

@@ -1,0 +1,20 @@
+446 c8qajA_ Probab=99.66  E-value=2.8e-18  Score=138.99  Aligned_cols=62  Identities=53%  Similarity=1.034  Sum_probs=0.0  Template_Neff=6.644
+
+Q ss_pred             hhhhhcccchhhcchhcccHHHHHHHHHHcCcccceeeechhHHHHHHHHhhhhCccccc
+Q Undefined       148 ELKYDKQIDLSTVDLKKLRVKELKKILDDWGETCKGCAEKSDYIRKINELMPKYAPKAAS  207 (680)
+Q Consensus       148 ~~~y~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~  207 (680)
+                      +|||++.|||+..||.||+|++||+||++||+.|++|.||+|||++|+|++++|++.++.
+T Consensus         3 ~l~y~~~~~~~~~dl~kmrv~eLK~iL~~~g~~c~gC~EK~dfv~~i~e~~~~~~~~~~~   62 (65)
+T c8qajA_           3 HMKYEKTLDLASVDLRKMRVAELKQILHSWGEECRACAEKTDYVNLIQELAPKYAATHPK   62 (65)
+T ss_pred             cccccccCCcchhhHhhccHHHHHHHHHHcCCccccccchHHHHHHHHHhchhhcCCCCC
+
+
+Q ss_pred             hh
+Q Undefined       208 AR  209 (680)
+Q Consensus       208 ~~  209 (680)
+                      ..
+T Consensus        63 ~~   64 (65)
+T c8qajA_          63 TE   64 (65)
+T ss_pred             CC
+
+

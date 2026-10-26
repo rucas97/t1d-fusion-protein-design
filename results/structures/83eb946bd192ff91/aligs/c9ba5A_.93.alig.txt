@@ -1,0 +1,65 @@
+93 c9ba5A_ Probab=99.84  E-value=3.7e-19  Score=184.42  Aligned_cols=355  Identities=14%  Similarity=0.184  Sum_probs=0.0  Template_Neff=13.013
+
+Q ss_pred             CceeeeeccCCCCCCcCccEEEEEEeeccccCceEEEEecCCCcccccceeecceecCCc
+Q Undefined       232 APTLFPLVSCENSPSDTSSVAVGCLAQDFLPDSITFSWKYKNNSDISSTRGFPSVLRGGK  291 (680)
+Q Consensus       232 ~P~vfpl~~c~~~~~~~~~VtlgCla~gf~P~~vtvsW~~~~~s~~s~~~~~p~v~~~g~  291 (680)
+                      +|.+.++.+-.........++|.|.+.+  .....+.|..++.........         
+T Consensus       205 ~~~~~~~~~~~~~~~~g~~~~l~c~~~~--~~~~~~~w~~~~~~~~~~~~~---------  253 (573)
+T c9ba5A_         205 APSIKARFPAETYALVGQQVTLECFAFG--NPVPRIKWRKVDGSLSPQWTT---------  253 (573)
+T ss_pred             ccceeccCCccEEEEcCCeEEEEEEEec--ccCcEEEEEEcCCcCCceecc---------
+
+
+Q ss_pred             EEEEEEEEeeccccccCCceEEEEEEecCCCcccceeecccccccCcceeeecccccccc
+Q Undefined       292 YAATSQVLLPSKDVMQGTDEHVVCKVQHPNGNKEKNVPLPVIAELPPKVSVFVPPRDGFF  351 (680)
+Q Consensus       292 Ys~~Sqvtv~~~d~~~~~~~~~tC~V~H~~~~~~~~~~l~~~~~~pP~v~i~~pp~d~~~  351 (680)
+                          ...++........+...|+|.+.+..+.......+......+    +...+.....
+T Consensus       254 ----~~~~l~~~~~~~~~~g~y~c~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~  305 (573)
+T c9ba5A_         254 ----AEPTLQIPSVSFEDEGTYECEAENSKGRDTVQGRIIVQAQPE----WLKVISDTEA  305 (573)
+T ss_pred             ----CCCEEEeccCCCCcCeEEEEEEEeCCCceEEEEEEEEecCCc----eeeeccccee
+
+
+Q ss_pred             cCCCceEEEEEEcCccCCceEEEEeecCccccccccccccccccccCCCcceeeeEEEEe
+Q Undefined       352 GNPRKSKLICQATGFSPRQIQVSWLREGKQVGSGVTTDQVQAEAKESGPTTYKVTSTLTI  411 (680)
+Q Consensus       352 ~~~~~a~L~C~vsGF~P~~I~VtW~KDG~~L~S~~~t~~~~~e~~~~~dgtfs~sS~LtI  411 (680)
+                      ..+....|.|.+.+..+  ..+.|++++..+..........              +.|.|
+T Consensus       306 ~~~~~~~l~c~~~~~~~--~~~~w~~~~~~~~~~~~~~~~~--------------~~~~~  349 (573)
+T c9ba5A_         306 DIGSNLRWGCAAAGKPR--PTVRWLRNGEPLASQNRVEVLA--------------GDLRF  349 (573)
+T ss_pred             cCCCcEEEEEEEecccC--CeEEEEECCeeccCCCceEEec--------------ceEEE
+
+
+Q ss_pred             ccccccCCCeEEEEEEecCCccccccccccccccCCCceEEEecCCcceEeeCCceEEEE
+Q Undefined       412 KESDWLSQSMFTCRVDHRGLTFQQNASSMCVPDQDTAIRVFAIPPSFASIFLTKSTKLTC  471 (680)
+Q Consensus       412 ~~~~~~d~g~YTC~V~h~~~t~~~~~~~~~~~~~~~~p~V~i~pPs~~~i~~g~svtLtC  471 (680)
+                      ......+.+.|+|.+.+...........  ..............+....+..|..++|.|
+T Consensus       350 ~~~~~~~~g~y~c~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~l~c  407 (573)
+T c9ba5A_         350 SKLSLEDSGMYQCVAENKHGTIYASAEL--AVQALAPDFRLNPVRRLIPAARGGEILIPC  407 (573)
+T ss_pred             ecCCCCCCeEEEEEEEeCCCceEEEEEE--EEEecCCccccccccceeeecCCCeEEEEE
+
+
+Q ss_pred             EEecCCCcceeEEEEEECCccccCCcccceeccCCceEEEEEEEEeccccccCCceEEEE
+Q Undefined       472 LVTDLTTYDSVTISWTRQNGEAVKTHTNISESHPNATFSAVGEASICEDDWNSGERFTCT  531 (680)
+Q Consensus       472 ~VsG~p~P~~vtIsW~kdg~ev~~s~t~~~~~~~nGt~~~~S~L~I~~~~w~dgg~YtC~  531 (680)
+                      .+.+.+.+   .+.|++++...............        .|.|....+.+.|.|.|.
+T Consensus       408 ~~~~~~~~---~~~w~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~~~~g~y~c~  456 (573)
+T c9ba5A_         408 QPRAAPKA---VVLWSKGTEILVNSSRVTVTPDG--------TLIIRNISRSDEGKYTCF  456 (573)
+T ss_pred             eccccCcc---EEEEEeCCeeeecCCcEEEcCCC--------EEEEecCCCCCCeEEEEE
+
+
+Q ss_pred             EEcCCCCcccceeEEeeccCcccCceeEeecCCcceeecCCeEEEEEEEeccCCcceEEE
+Q Undefined       532 VTHTDLPSPLKQTISRPKGVALHRPDVYLLPPAREQLNLRESATITCLVTGFSPADVFVQ  591 (680)
+Q Consensus       532 A~n~~g~~p~~~tis~~~~~~~~~P~V~~~pP~~e~v~~Ge~vTLtC~VsGf~P~dI~Vt  591 (680)
+                      +.|..+.......+      .+..+......|....+..|+.++|.|.+.+++++.+.+.
+T Consensus       457 ~~~~~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~  510 (573)
+T c9ba5A_         457 AENFMGKANSTGIL------SVRDATKITLAPSSADINLGDNLTLQCHASHDPTMDLTFT  510 (573)
+T ss_pred             EEecCceeeeEEEE------EEEecCeeecCCCcceecCCCceEEEEeecCCCCCceEEE
+
+
+Q ss_pred             EEECCEEcccccccccccccccCCCcceEEEEEEEecHhhcccCceEEEEEEcC
+Q Undefined       592 WAQRGQPLSPEKYVTSAPMPEPQAPGRYFAHSILTVSEEEWNTGETYTCVVAHE  645 (680)
+Q Consensus       592 WlknG~~L~~~~~~t~~P~~~~~~dgtys~~S~LtIs~s~~~~gg~YTC~V~He  645 (680)
+                      |.++|..+..     ................+.|+|....+++.|.|+|.+.|+
+T Consensus       511 w~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~  559 (573)
+T c9ba5A_         511 WTLDDFPIDF-----DKPGGHYRRTNVKETIGDLTILNAQLRHGGKYTCMAQTV  559 (573)
+T ss_pred             EeeCCccccc-----cCCCcceeeeeecCceeeEEEEeEEeccCeEEEEEEecc
+
+

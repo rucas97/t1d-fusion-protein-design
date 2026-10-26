@@ -1,0 +1,38 @@
+407 c4o5lA_ Probab=99.47  E-value=5.2e-13  Score=115.52  Aligned_cols=190  Identities=18%  Similarity=0.295  Sum_probs=0.0  Template_Neff=13.849
+
+Q ss_pred             EecCCcceEeeCCceEEEEEEecCCCcceeEEEEEECCccc---------cCCcccceec
+Q Undefined       453 AIPPSFASIFLTKSTKLTCLVTDLTTYDSVTISWTRQNGEA---------VKTHTNISES  503 (680)
+Q Consensus       453 i~pPs~~~i~~g~svtLtC~VsG~p~P~~vtIsW~kdg~ev---------~~s~t~~~~~  503 (680)
+                      +..|....+..|+.++|.|.+.+...+ ...+.|++++...         ..........
+T Consensus         4 ~~~~~~~~~~~g~~~~l~C~~~~~~~~-~~~~~W~~~~~~~~~~~~~~~~~~~~~~~~~~   62 (215)
+T c4o5lA_           4 LTQPPSASGTPGQSVTISCSGSRSNIG-GNTVNWYQHLPGMAPKLLIYSSNQRSSGVPDR   62 (215)
+T ss_pred             EecCCccccCCCceEEEEEecccCccC-CceEEEEEeCCCCCceEEEEEecCCCCCCCcc
+
+
+Q ss_pred             cCCceEEEEEEEEeccccccCCceEEEEEEcCCCC-cccceeEEeeccCcccCceeEeec
+Q Undefined       504 HPNATFSAVGEASICEDDWNSGERFTCTVTHTDLP-SPLKQTISRPKGVALHRPDVYLLP  562 (680)
+Q Consensus       504 ~~nGt~~~~S~L~I~~~~w~dgg~YtC~A~n~~g~-~p~~~tis~~~~~~~~~P~V~~~p  562 (680)
+                      ...........|.|....+.|.+.|.|.+.+.... .................+......
+T Consensus        63 ~~~~~~~~~~~l~i~~~~~~d~g~y~c~~~~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~  122 (215)
+T c4o5lA_          63 FSGSKSGTSASLAISGLQSEDDADYYCASWDDSLNGVVFGGGTKLTVLGQPKAAPSVTLF  122 (215)
+T ss_pred             eeeccCCceEEEEeCCCCcCCceEEEEeEeeccccceEeccCcEEEeccCCCCCCeeEEe
+
+
+Q ss_pred             CCcceeecCCeEEEEEEEeccCCcceEEEEEECCEEcccccccccccccccCCCcceEEE
+Q Undefined       563 PAREQLNLRESATITCLVTGFSPADVFVQWAQRGQPLSPEKYVTSAPMPEPQAPGRYFAH  622 (680)
+Q Consensus       563 P~~e~v~~Ge~vTLtC~VsGf~P~dI~VtWlknG~~L~~~~~~t~~P~~~~~~dgtys~~  622 (680)
+                      +.......+..++|.|.+.+++|..+.++|++++..+...........   ..++.|...
+T Consensus       123 ~~~~~~~~~~~~~l~C~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~---~~~~~~~~~  179 (215)
+T c4o5lA_         123 PPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSK---QSNNKYAAS  179 (215)
+T ss_pred             CCCcchhcCCceEEEEEEecccCCceEEEEEeCCeeeeccccccCCcc---cCCCceEEE
+
+
+Q ss_pred             EEEEecHhhcccCceEEEEEEcCC
+Q Undefined       623 SILTVSEEEWNTGETYTCVVAHEA  646 (680)
+Q Consensus       623 S~LtIs~s~~~~gg~YTC~V~Hea  646 (680)
+                      +.|+|....|++.+.|+|.+.|+.
+T Consensus       180 ~~l~~~~~~~~~~~~~~C~~~~~~  203 (215)
+T c4o5lA_         180 SYLSLTPEQWKSHKSYSCQVTHEG  203 (215)
+T ss_pred             EEEEeCccccCCCceEEEEEEEcC
+
+

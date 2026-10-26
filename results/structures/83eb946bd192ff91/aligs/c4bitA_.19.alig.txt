@@ -1,0 +1,35 @@
+19 c4bitA_ Probab=100.00  E-value=5.6e-51  Score=391.20  Aligned_cols=154  Identities=62%  Similarity=1.111  Sum_probs=147.8  Template_Neff=6.674
+
+Q ss_pred             cccCcccchHHHHHHHHHHHHhhhcccccCHHHHHHHHHHHHHhccCcccceEEEeeccc
+Q Undefined        53 GSLRPGDCEVCISYLGRFYQDLKDRDVTFSPATIENELIKFCREARGKENRLCYYIGATD  112 (680)
+Q Consensus        53 ~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~cy~~g~~~  112 (680)
+                      ++.++++|||||+||++|++.+.+..+.++.++|+++|.++|...++||+|||||||+++
+T Consensus         4 ~~~~~~~CeVC~~~l~~~~~~l~~~~~~~~~~~~e~~~~~~C~~~~~ke~r~cyyig~~~   63 (161)
+T c4bitA_           4 GGRPGADCEVCKEFLNRFYKSLIDRGVNFSLDTIEKELISFCLDTKGKENRLCYYLGATK   63 (161)
+T ss_dssp             SSCCCCSCSHHHHHHHHHHHHHHTTTCCCCHHHHHHHHHHHTSSCCSHHHHHHHHTTCST
+T ss_pred             ccCCCCCCcCcHHHHHHHHHHhHhhcccCCHHHHHHHHHHHHHhccCcccceeeeccCcc
+Confidence            346788999999999999999998887788888999999999999999999999999999
+
+
+Q ss_pred             hhHHHHHHHhhccccccccHHHHHHHHHhhhhhhhhhhhhcccchhhcchhcccHHHHHH
+Q Undefined       113 DAATKIINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQIDLSTVDLKKLRVKELKK  172 (680)
+Q Consensus       113 ~~~~~~~~~~~~~~~~~~~~~~~c~~l~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~l~~  172 (680)
+                      +|||.++++|++||++|||++|||++|+++|+|||+|||++++||+.+||+||||++||+
+T Consensus        64 ~sat~~~~~vs~pls~~~p~~kiC~~l~~~d~qiC~lky~~~~d~~~~dl~K~rvk~Lk~  123 (161)
+T c4bitA_          64 DAATKILSEVTRPMSVHMPAMKICEKLKKLDSQICELKYEKTLDLASVDLRKMRVAELKQ  123 (161)
+T ss_dssp             TSCCCCCTTTHHHHTTTCCGGGTHHHHTTTCSTTTCCCCCSCCGGGSSCSSSCCHHHHHH
+T ss_pred             cchhHHHHHhhhhhhcCCChHHHHHHhhccchhhhhcccccccCccccchhhhhHHHHHH
+Confidence            999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHcCcccceeeechhHHHHHHHHhhhhCcccc
+Q Undefined       173 ILDDWGETCKGCAEKSDYIRKINELMPKYAPKAA  206 (680)
+Q Consensus       173 ~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~  206 (680)
+                      ||++||+.|+||+||+|||++|+++++++.++++
+T Consensus       124 iL~~~g~~C~gC~EK~dfv~~i~e~~~~~~~~~~  157 (161)
+T c4bitA_         124 ILHSWGEECRACAEKTDYVNLIQELAPKYAATHP  157 (161)
+T ss_dssp             HHHHTTCCCSSCCSHHHHHHHHHHHHHHHCCCCS
+T ss_pred             HHHHcCCcccchhhhhHHHHHHHHhcccccCCCC
+Confidence            9999999999999999999999999999987654
+
+

@@ -1,0 +1,72 @@
+122 c3jxaB_ Probab=99.87  E-value=4.4e-20  Score=177.10  Aligned_cols=342  Identities=13%  Similarity=0.165  Sum_probs=0.0  Template_Neff=13.765
+
+Q ss_pred             cCccEEEEEEeeccccCceEEEEecCCCcccccceeecceecCCcEEEEEEEEeeccccc
+Q Undefined       247 DTSSVAVGCLAQDFLPDSITFSWKYKNNSDISSTRGFPSVLRGGKYAATSQVLLPSKDVM  306 (680)
+Q Consensus       247 ~~~~VtlgCla~gf~P~~vtvsW~~~~~s~~s~~~~~p~v~~~g~Ys~~Sqvtv~~~d~~  306 (680)
+                      +..+++|.|.+.++.+  ..+.|..++.........        .|.......+......
+T Consensus        21 ~g~~~~l~c~~~~~~~--~~~~w~~~~~~~~~~~~~--------~~~~~~~~~~~~~~~~   70 (383)
+T c3jxaB_          21 EEKKVKLSCEVKGNPK--PHIRWKLNGTDVDIGMDF--------RYSVVDGSLLINNPNK   70 (383)
+T ss_dssp             SCSEEEECCEEEEES----EEEEEETTEECCSTTTS--------SCEEETTEEEEESCCH
+T ss_pred             CCCeEEEEEEEeecCC--CEEEEEECCEECCccccc--------eEEEcCCeEEEEcccc
+
+
+Q ss_pred             cCCceEEEEEEecCCCcccceeecccccccCcceeeecccccccccCCCceEEEEEEcCc
+Q Undefined       307 QGTDEHVVCKVQHPNGNKEKNVPLPVIAELPPKVSVFVPPRDGFFGNPRKSKLICQATGF  366 (680)
+Q Consensus       307 ~~~~~~~tC~V~H~~~~~~~~~~l~~~~~~pP~v~i~~pp~d~~~~~~~~a~L~C~vsGF  366 (680)
+                      ..+...|+|.+.+..+..............++....  .+.......+....|.|.+.+.
+T Consensus        71 ~~~~g~y~c~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~g~~~~l~c~~~~~  128 (383)
+T c3jxaB_          71 TQDAGTYQCIATNSFGTIVSREAKLQFAYLENFKTR--TRSTVSVRRGQGMVLLCGPPPH  128 (383)
+T ss_dssp             HHHCEEEEEEEEETTEEEEEEEEEEEEEEE---SCS--CCCCEEECTTCCEEECCC--SE
+T ss_pred             cCCCcEEEEEEEeccCcceeeeEEEEEecCCCceec--CccceecccCCceEEEEecCCC
+
+
+Q ss_pred             cCCceEEEEeecCccccccccccccccccccCCCcceeeeEEEEeccccccCCCeEEEEE
+Q Undefined       367 SPRQIQVSWLREGKQVGSGVTTDQVQAEAKESGPTTYKVTSTLTIKESDWLSQSMFTCRV  426 (680)
+Q Consensus       367 ~P~~I~VtW~KDG~~L~S~~~t~~~~~e~~~~~dgtfs~sS~LtI~~~~~~d~g~YTC~V  426 (680)
+                      .|.. .+.|++++..+............            ..|.|......+.+.|+|.+
+T Consensus       129 ~~~~-~~~w~~~~~~~~~~~~~~~~~~~------------~~l~i~~~~~~~~g~y~c~~  175 (383)
+T c3jxaB_         129 SGEL-SYAWIFNEYPSYQDNRRFVSQET------------GNLYIAKVEKSDVGNYTCVV  175 (383)
+T ss_dssp             ESCE-EEEEEETTEE--CSSSEEECTTT------------CCEEESSCCGGGCEEEEEEE
+T ss_pred             CCce-EEEEecCCccccccCceEEecCC------------ccEEECCCChhhCcEEEEEE
+
+
+Q ss_pred             EecCCcccccccccccccc------CCCceEEEecCCcceEeeCCceEEEEEEecCCCcc
+Q Undefined       427 DHRGLTFQQNASSMCVPDQ------DTAIRVFAIPPSFASIFLTKSTKLTCLVTDLTTYD  480 (680)
+Q Consensus       427 ~h~~~t~~~~~~~~~~~~~------~~~p~V~i~pPs~~~i~~g~svtLtC~VsG~p~P~  480 (680)
+                      .+.................      ...+.+.+..+....+..|+.++|.|.+.+.+.+ 
+T Consensus       176 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~l~c~~~~~~~~-  234 (383)
+T c3jxaB_         176 TNTVTNHKVLGPPTPLILRNDGVMGEYEPKIEVQFPETVPAEKGTTVKLECFALGNPVP-  234 (383)
+T ss_dssp             EETTTCCEEE---EEEEECSSC----EEEEEEECCCSEEEEETTSCEEEECEEEEES---
+T ss_pred             EeccccccccCCcceeEEeccccccccCCceeccCCCceEecCCCeEEEEEEEcCCCCc-
+
+
+Q ss_pred             eeEEEEEECCccccCCcccceeccCCceEEEEEEEEeccccccCCceEEEEEEcCCCCcc
+Q Undefined       481 SVTISWTRQNGEAVKTHTNISESHPNATFSAVGEASICEDDWNSGERFTCTVTHTDLPSP  540 (680)
+Q Consensus       481 ~vtIsW~kdg~ev~~s~t~~~~~~~nGt~~~~S~L~I~~~~w~dgg~YtC~A~n~~g~~p  540 (680)
+                        .+.|+++++........        .....+.|.|....+.+.|.|+|.+.|..+...
+T Consensus       235 --~~~w~~~~~~~~~~~~~--------~~~~~~~l~~~~~~~~~~g~y~c~~~~~~~~~~  284 (383)
+T c3jxaB_         235 --TILWRRADGKPIARKAR--------RHKSNGILEIPNFQQEDAGSYECVAENSRGKNV  284 (383)
+T ss_dssp             --EEEEEETTC---CSSCE--------EETTTTEEEECSCCGGGCEEEEEEEECSSCEEE
+T ss_pred             --eEEEEeCCCcccchhhh--------eeccceeEEEcccccccCeeEEEEEEccCCcee
+
+
+Q ss_pred             cceeEEeeccCcccCceeEeecCCcceeecCCeEEEEEEEeccCCcceEEEEEECCEEcc
+Q Undefined       541 LKQTISRPKGVALHRPDVYLLPPAREQLNLRESATITCLVTGFSPADVFVQWAQRGQPLS  600 (680)
+Q Consensus       541 ~~~tis~~~~~~~~~P~V~~~pP~~e~v~~Ge~vTLtC~VsGf~P~dI~VtWlknG~~L~  600 (680)
+                      ....+      .+..+......+....+..|+.++|.|.+.+.++.  .++|+++|..+.
+T Consensus       285 ~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~--~~~w~~~~~~~~  336 (383)
+T c3jxaB_         285 AKGQL------TFYAQPNWVQIINDIHVAMEESVFWECKANGRPKP--TYRWLKNGDPLL  336 (383)
+T ss_dssp             EEEEE------EEEEEEEEEECCCCEEECTTCCEEEECEEEEES----EEEEEETTEECC
+T ss_pred             EEEEE------EEEecCcccccCCceEeecCCeEEEEEEeeccCCc--eEEEEECCeEee
+
+
+Q ss_pred             cccccccccccccCCCcceEEEEEEEecHhhcccCceEEEEEEcC
+Q Undefined       601 PEKYVTSAPMPEPQAPGRYFAHSILTVSEEEWNTGETYTCVVAHE  645 (680)
+Q Consensus       601 ~~~~~t~~P~~~~~~dgtys~~S~LtIs~s~~~~gg~YTC~V~He  645 (680)
+                                   ..+......+.|+|.....++.+.|+|.+.+.
+T Consensus       337 -------------~~~~~~~~~~~~~~~~~~~~~~~~y~c~~~~~  368 (383)
+T c3jxaB_         337 -------------TRDRIQIEQGTLNITIVNLSDAGMYQCVAENK  368 (383)
+T ss_dssp             -------------CCSSEEEETTEEEESSCCGGGCEEEEEEEEET
+T ss_pred             -------------ecccEEEecceEEEccCCcccceEEEEEEEcC
+
+

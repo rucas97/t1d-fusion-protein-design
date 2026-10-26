@@ -1,0 +1,22 @@
+65 c2w50A_ Probab=99.97  E-value=5.2e-32  Score=237.65  Aligned_cols=97  Identities=66%  Similarity=1.167  Sum_probs=0.0  Template_Neff=7.414
+
+Q ss_pred             ccchHHHHHHHHHHHHhhhcccccCHHHHHHHHHHHHHhccCcccceEEEeeccchhHHH
+Q Undefined        58 GDCEVCISYLGRFYQDLKDRDVTFSPATIENELIKFCREARGKENRLCYYIGATDDAATK  117 (680)
+Q Consensus        58 ~~~~~c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~cy~~g~~~~~~~~  117 (680)
+                      ++||||++||++|+++|.+.....+.+.||++|+++|...++||+|||||||+++||||+
+T Consensus         1 ~~CeVCi~~l~~~~~~~~~~~~~~~~~~ie~~~~~~C~~~~~ke~r~Cyyig~~~~sat~   60 (97)
+T c2w50A_           1 ADCEVCKEFLNRFYKSLIDRGVNFSLDTIEKELISFCLDTKGKENRLCYYLGATKDAATK   60 (97)
+T ss_dssp             CTTHHHHHHHHHHHHHHHHTTCCCCHHHHHHHHHHHHTTCCHHHHHHHHHTTCSTTSCHH
+T ss_pred             CCccchHHHHHHHHHhhhhcCCCCCHHHHHHHHHHHhhhcccccchhhhhhccccchhhh
+
+
+Q ss_pred             HHHHhhccccccccHHHHHHHHHhhhhhhhhhhhhcc
+Q Undefined       118 IINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQ  154 (680)
+Q Consensus       118 ~~~~~~~~~~~~~~~~~~c~~l~~~~~~~~~~~y~~~  154 (680)
+                      |++||++|||++||++|||++|+++|+|||+|+|+++
+T Consensus        61 ~~~~vs~pls~~~P~~kiC~~L~k~d~qiC~lky~k~   97 (97)
+T c2w50A_          61 ILSEVTRPMSVHMPAMKICEKLKKLDSQICELKYEKT   97 (97)
+T ss_dssp             HHHHHHHHHTTTCCHHHHHHHHHTTCGGGGTCCCCCC
+T ss_pred             hhhhhhcccccCCChhhhhhhhccCchhhhhhhccCC
+
+

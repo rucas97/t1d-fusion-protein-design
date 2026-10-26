@@ -1,0 +1,665 @@
+:root { --background-colour: #f9f9f9;
+	--lightmidshade-background-colour: #fbfcfc;
+	--midmidshade-background-colour: #ededfb;
+	--midshade-background-colour: #fbfbfe;
+	--darkmidshade-background-colour: #fcfffc;
+	--darkshade-background-colour: #dddddd;
+	--bottom-round-background-colour: #dddddd;
+	--light-colour: #dddddd;
+	--mid-colour: #bbbbbb;
+	--dark-colour: #888888;
+	--link-colour: #88344b;
+	--link-hover-colour: #4455cc;
+	--text-area-colour: #f6f6fd;
+}
+
+body {background-color:var(--background-colour);}
+body {
+  margin: 0px;
+  padding: 0px;
+/*  font-family: "trebuchet ms"; font-size: 14px;*/
+ font-family: tahoma, sans-serif;
+  background-color:var(--background-colour);
+  }
+
+  font#username {
+    color: var(--link-colour);
+}
+font.username {
+    color: var(--link-colour);
+}
+a:link { background: inherit; color: var(--link-colour); text-decoration: none;}
+a:visited { background: inherit; color: var(--link-colour); text-decoration: none;}
+
+a:hover,a:active
+{
+/* background-color:var(--midshade-background-colour); */
+color: var(--link-hover-colour);
+text-decoration: none;
+}
+
+/* ul {color: var(--darkmidshade-background-colour);} */
+li::marker { color: darkslategrey;}
+
+a.logo:link{ background:inherit;}
+a.logo:visited{ background:inherit;}
+a.logo:hover,a.logo:active
+{
+background-color:none;
+color:none;
+}
+
+a.cdd
+{
+color:inherit;
+text-decoration:none;
+}	
+
+/*table.main {border-left-style:solid; border-left-width:10px}*/
+table {
+	background-color: var(--background-colour);
+	padding: 1px;
+	border-spacing: 3px;
+}
+/* table.round {background-color: var(--background-colour); border: 3px solid var(--mid-colour);} */
+td.light {background-color: var(--light-colour);}
+td.trlight {background-color: var(--light-colour); border-top-right-radius: 20px;}
+td.brlight {background-color: var(--light-colour); border-bottom-right-radius: 20px;}
+td.dark {background-color: var(--dark-colour);} 
+table.sbgic {border:solid; border: 3px solid indigo}
+
+table.highlighted_notice { 
+	border: 3px solid #d1d2c0;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 5px;
+	width: 75%;
+   }
+  
+table.notice { 
+	border: 3px solid #d1d2c0;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 5px;
+	width: 75%;
+   }
+  
+.cartouche { 
+	border: 3px solid lightgrey;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 5px;
+   }
+
+table.wrapped { 
+    font-size: 14px;
+	border: 2px solid lightgrey;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 1px;
+   }
+  
+table.highlighted { 
+	border: 3px double slategrey;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 5px;
+	width: 75%;
+   }
+  
+table.group td.group { 
+  border: 1px solid #888888;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 2px;
+ }
+
+
+textarea{
+background-color:var(--text-area-colour);
+border:1px solid silver;
+resize: none;
+}
+
+/* try to change radiobutton to button with variable text, eg put CHEBI into a button for ligand selector */
+.radio-toolbar input[type="radio"] {
+	opacity: 0;
+	position: fixed;
+	width: 0;
+  }
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #e9e9ed;
+	/* top, right, bottom, left */
+    padding: 4px 6px 2px 6px;
+    font-family: sans-serif, Arial;
+    font-size: 12px;
+    border: 1px solid #9f9ead;
+    border-radius: 4px;
+}
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#eef;
+    /* border: 4px solid #79ade4; */
+    border: 4px solid var(--dark-colour);
+}
+.radio-toolbar input[type="radio"]:focus + label {
+    /* border: 3px solid #79ade4; */ 
+    border: 4px solid var(--mid-colour);
+}
+.radio-toolbar label:hover {
+	background-color: #d0d0d7;
+  }
+.radio-toolbar-disabled  label {
+    display: inline-block;
+    background-color: #fafafa;
+	/* top, right, bottom, left */
+    padding: 4px 6px 2px 6px;
+    font-family: sans-serif, Arial;
+    font-size: 12px;
+    /* border: 1px solid #9f9ead; */
+    border: 4px solid green;
+    border-radius: 4px;
+}
+
+.radio-toolbar-disabled  label:hover {
+    background-color: #fafafa;
+}
+
+.display_cavity label { 
+    display: inline-block;
+    background-color: #e9e9ed;
+	/* top, right, bottom, left */
+    padding: 4px 6px 2px 6px;
+    font-family: sans-serif, Arial;
+    font-size: 12px;
+    border: 1px solid #9f9ead;
+    border-radius: 4px;
+}
+
+.display_cavity input[type="checkbox"]:checked + label { 
+    border: 4px solid var(--dark-colour);
+}
+
+input[type="text"]
+{
+background-color:var(--text-area-colour);
+border:1px solid silver;
+}
+
+.midshade
+{
+
+background-color:var(--midshade-background-colour);
+}	
+
+.midshadess
+{
+background-color:var(--midshade-background-colour);
+text-align:right;
+padding-right:5px;
+padding-left:5px;
+
+}
+
+.midshadeseq
+{
+background-color:var(--midshade-background-colour);
+text-align:center;
+padding-right:5px;
+padding-left:5px;
+
+}
+.lightmidshade
+{
+
+background-color:var(--lightmidshade-background-colour);
+}	
+
+.lightmidshadess
+{
+background-color:var(--lightmidshade-background-colour);
+text-align:right;
+padding-right:5px;
+padding-left:5px;
+
+}
+
+.lightmidshadeseq
+{
+background-color:var(--lightmidshade-background-colour);
+text-align:center;
+padding-right:5px;
+padding-left:5px;
+
+}
+
+.darkshade
+{
+text-align:right;
+color:black;
+background-color:var(--darkshade-background-colour);
+padding-right:5px;
+padding-left:5px;
+}	
+
+.darkshade_dom
+{
+color:black;
+background-color:var(--darkshade-background-colour);
+}
+
+
+.darkshadelalig
+{
+text-align:left;
+color:black;
+background-color:var(--darkshade-background-colour);
+padding-right:5px;
+padding-left:5px;
+}	
+
+.darkshadecalig
+{
+text-align:center;
+color:black;
+background-color:var(--midshade-background-colour);
+padding-right:5px;
+padding-left:5px;
+color: darkslategrey;
+}	
+
+.inv_button 
+{
+
+background: #eee url('http://www.sbg.bio.ic.ac.uk/phyre2/html/images/phyre_investigator_notext.png') no-repeat top left;
+/* background-image:url('http://www.sbg.bio.ic.ac.uk/phyre2/html/images/maybe.png'); */
+    padding-left: 64px;
+    padding-right:10px;
+    height: 48px;
+	  background-color:var(--darkmidshade-background-colour);
+	  -moz-border-radius:3px;
+	  -webkit-border-radius:3px;
+	  border-radius:3px;
+	  border:1px solid #54381e;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:#111111;
+	  font-family:arial;
+	  font-size:12px;
+	  /* padding:6px 24px; */
+	  text-decoration:none;
+	  text-shadow:0px 1px 0px #4d3534;
+}
+.inv_button:hover {
+
+		background-color:#9e9a8b;
+}
+.inv_button:active {
+		 position:relative;
+		 top:1px;
+}
+
+.ligand_button 
+{
+background: #eee url('https://www.sbg.bio.ic.ac.uk/phyre2/html/images/phyre-ligand-3-no-text.png') no-repeat top left;
+    padding-left: 64px;
+    padding-right:10px;
+    height: 48px;
+	  background-color:var(--darkmidshade-background-colour);
+	  -moz-border-radius:3px;
+	  -webkit-border-radius:3px;
+	  border-radius:3px;
+	  border:1px solid #54381e;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:#111111;
+	  font-family:arial;
+	  font-size:12px;
+	  	  text-decoration:none;
+	  text-shadow:0px 1px 0px #4d3534;
+}
+.ligand_button:hover {
+
+	background-color:#d0d0d7;
+}
+.ligand_button:active {
+	background-color:#c7c7c6;
+	position:relative;
+	top:1px;
+}
+
+
+
+.pssmrow
+{
+font-size:10px;
+/*border-style:solid;*/
+border-top:2px solid var(--link-colour);
+}
+
+.pssmcol
+{
+/*border-style:solid;*/
+border-left:2px solid var(--link-colour);
+
+
+}
+.susrow
+{
+font-size:10px;
+/*border-style:solid;*/
+border-top:2px solid var(--link-colour);
+}
+
+.suscol
+{
+/*border-style:solid;*/
+border-left:2px solid var(--link-colour);
+
+
+}
+
+
+.darkshadetable
+{
+text-align:center;
+color:black;
+background-color:var(--midshade-background-colour);
+padding-right:50px;
+padding-left:50px;
+}	
+
+.mini
+{
+font-family: "trebuchet ms"; font-size:10px;
+color:var(--text-area-colour);
+}
+
+/* HRP 10/10/2024 not used?
+.helix
+{
+width:11px;
+background-color:var(--link-colour);
+color:#c1d2d0;
+color:#88344b;
+}
+HRP 10/10/2024 not used? */
+.HardBreak
+{
+font-size:10;
+width: 500px;
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-all; /* Internet Explorer 5.5+ */
+}
+
+
+.disorder
+{
+font-size:12px;
+
+}
+
+/*td img
+{
+display: block;
+}
+*/
+.helimg
+{
+width:1.0em;
+height:1.0em;
+
+}
+
+.strimg
+{
+width:1.0em;
+height:1.0em;
+vertical-align: bottom;
+/*display:block;*/
+
+}
+
+.index
+{
+font-size:0.5em;
+text-align:center;
+}
+
+
+/* HRP 10/10/2024 not used?
+.strand
+{
+
+background-color:lightblue;
+}
+HRP 10/10/2024 not used? */
+
+div.scroll {
+height: 400px;
+width: 1100px;
+overflow: auto;
+border: 1px solid #666;
+background-color:#c1d2d0;
+padding: 10px;
+}
+
+
+div.batchscroll {
+height: 400px;
+width: 400px;
+overflow: auto;
+border: 1px solid #666;
+padding: 10px;
+}
+
+div.summaryscroll {
+height: 10em;
+width: 40em;
+overflow: auto;
+border: 0.2em solid #666;
+padding: 0.2em;
+}
+
+div.domscroll {
+height: 400px;
+width: 600px;
+overflow: auto;
+border: 1px solid #666;
+background-color:#c1d2d0;
+padding: 10px;
+}
+
+
+
+div.flibscroll {
+height: 400px;
+width: 1300px;
+overflow: auto;
+border: 1px solid #666;
+background-color:#c1d2d0;
+padding: 10px;
+}
+
+
+/*p {white-space:normal;}*/
+
+
+
+/* tooltip design */
+.ToolTips { display:block; position:absolute; width:404px; }
+.ToolTips .sticky_close { display:block; position:absolute; top:1px; right:3px; background:url(images/fileclose.png); width:16px; height:16px; line-height:16px; font-size:0px; z-index:100000000; }
+.ToolTips .message { display:block; position:relative; background:url(images/tip_body.png) repeat-y; padding:0px 10px; }
+
+/* here we do a little switch. If the tooltip is positioned above the element hovered, it changes the classes on the header/footer divs in order to point at the element hovered */
+.ToolTips .dockBottomHeader, 
+.ToolTips .dockTopFooter { display:block; position:relative; background:url(images/dockBottomHeader.png) no-repeat bottom; height:33px;  }
+.ToolTips .dockTopFooter { background:url(images/dockTopFooter.png) no-repeat bottom; height:38px; }
+
+.ToolTips .dockBottomFooter,
+.ToolTips .dockTopHeader { display:block; position:relative; background:url(images/dockBottomFooter.png); height:14px; line-height:11px; font-size:0px; clear:both; }
+/* this one has more height to display the close button in case sticky tooltips are on */
+.ToolTips .dockTopHeader { background:url(images/dockTopHeader.png) bottom center no-repeat; height:20px; line-height:20px; font-size:0px; }
+
+* html .ToolTips .dockBottomHeader { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dockBottomHeader.png'); }
+* html .ToolTips .dockBottomFooter { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dockBottomFooter.png'); }
+* html .ToolTips .dockTopHeader { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dockTopHeader.png'); }
+* html .ToolTips .dockTopFooter { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dockTopFooter.png'); }
+* html .ToolTips .sticky_close {  background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fileclose.png');  }
+
+/* this is just a div displaying the loading animated .gif */
+.loading { display:block; margin:0px auto 0px; background:url(images/ajax-loader.gif) center center no-repeat; width:31px; height:50px; }
+
+/* tip container */
+.tipContainer { display:none; }
+
+/* beautify the tooltip content */
+.ToolTips .message { font-size:12px; text-align:left; }
+.ToolTips .message h3 { font-size:16px; margin:0px 0px 10px; padding:0px; color:#FF6600; }
+.ToolTips .message .rights { display:block; clear:both; margin:15px 0px 0px; text-align:right; font-size:11px; color:var(--darkmidshade-background-colour); }
+
+/* Batchprogress table */
+.batchtable
+{
+	border-bottom-style: solid;
+	border-bottom-color: var(--midshade-background-colour);
+	border-bottom-width: 1px;
+
+	border-left-style: solid;
+	border-left-color: var(--midshade-background-colour);
+	border-left-width: 1px;
+	
+}	
+.batchtable_dark
+{
+	border-bottom-style: solid;
+	border-bottom-color: var(--darkmidshade-background-colour);
+	border-bottom-width: 1px;
+
+	border-left-style: solid;
+	border-left-color: var(--darkmidshade-background-colour);
+	border-left-width: 1px;
+	background-color: var(--darkmidshade-background-colour);
+	color: darkslategrey;
+}	
+
+
+.round{
+	background-color: var(--midshade-background-colour);
+  border-collapse: collapse;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+-khtml-border-radius: 20px;
+border-radius: 20px;
+}
+
+.topLeftRound{
+	background-color: var(--dark-colour);
+  border: 0px;
+-moz-border-top-left-radius: 20px;
+-webkit-border-top-left-radius: 20px;
+-khtml-border-top-left-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+
+.topRightRound{
+	background-color: var(--dark-colour);
+-moz-border-top-right-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-khtml-border-top-right-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+
+.bottomLeftRound{
+	background-color: var(--dark-colour);
+-moz-border-bottom-left-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-khtml-border-bottom-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.bottomRound{
+	background-color: var(--bottom-round-background-colour);
+	-moz-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-khtml-border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	-moz-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-khtml-border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	}
+
+.topRound{
+	background-color: var(--darkshade-background-colour);
+	-moz-border-top-left-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-khtml-border-top-left-radius: 20px;
+	border-top-left-radius: 20px;
+	-moz-border-top-right-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-khtml-border-top-right-radius: 20px;
+	border-top-right-radius: 20px;
+	}
+		
+span.circle_char{
+	/* make a character with a circle behind it */ 
+	width: 40px;
+	height: 40px;
+	display: inline-flex; /* you can also use 'grid' or just 'flex'*/
+	justify-content: center;
+	align-items: center;
+	background-color: #ecefec;
+	border-radius: 50%;
+	border: solid 3px;
+	border-color: lightgrey;
+	}
+	span.button_char{
+		/* make a character with a circle behind it */ 
+		font-size:12px;
+		display: inline-flex; /* you can also use 'grid' or just 'flex'*/
+		justify-content: center;
+		align-items: center;
+		background-color: #ecefec;
+		border-radius: 4px;
+		border: solid 2px;
+		border-color: darkgrey;
+		/* top, right, bottom, left */
+		padding: 2px 5px 2px 5px;
+		}
+	
+		:checked + span { 
+			border: solid 3px;
+			border-color: #888888;
+			background-color: #eeffff;
+		}
+		
+	/* markup for a group of checkboxes that behave like radiobuttons (only one can be selected), 
+	except that it's possible to uncheck a button) as well
+
+	might be useful
+*/
+.unique_checkbox {
+	cursor: pointer;
+	caret-color: transparent;
+}
+
+.unique_checkbox input {
+	display: none;
+}
+.img-checked {
+	display: none;
+}/* If checked, show the checked image */
+.unique_checkbox input:checked ~ .img-checked {
+	display: inline;
+}
+
+/* If checked, hide the unchecked image */
+.unique_checkbox input:checked ~ .img-unchecked {
+	display: none;
+}

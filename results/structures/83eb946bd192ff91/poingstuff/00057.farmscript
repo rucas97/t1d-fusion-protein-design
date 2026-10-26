@@ -1,0 +1,2 @@
+touch /bmm/wwwout/phyre2/phyre2_output/83eb946bd192ff91/poingstuff/00057.started
+/bmm/www/servers/phyre2/bin/newpython/python2.6 /bmm/www/servers/phyre2/bin/poing/mergeProteins_lfastsynth.py /bmm/wwwout/phyre2/phyre2_output/83eb946bd192ff91/poingstuff/00057 /bmm/www/servers/phyre2/public_html/phyre2_output/83eb946bd192ff91/input.fasta /bmm/www/servers/phyre2/public_html/phyre2_output/83eb946bd192ff91/poing.ss - /bmm/www/servers/phyre2/public_html/phyre2_output/83eb946bd192ff91/crudelist

@@ -1,0 +1,62 @@
+103 c5opiC_ Probab=99.74  E-value=4.7e-17  Score=162.12  Aligned_cols=277  Identities=17%  Similarity=0.240  Sum_probs=0.0  Template_Neff=11.518
+
+Q ss_pred             ecccccccCcceeeecccccccccCCCceEEEEEEcCccCCceEEEEeecCccccccccc
+Q Undefined       329 PLPVIAELPPKVSVFVPPRDGFFGNPRKSKLICQATGFSPRQIQVSWLREGKQVGSGVTT  388 (680)
+Q Consensus       329 ~l~~~~~~pP~v~i~~pp~d~~~~~~~~a~L~C~vsGF~P~~I~VtW~KDG~~L~S~~~t  388 (680)
+                      ..+..-..+.......+....-+......+|.|++++++|   .+.|++....+      
+T Consensus        41 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~C~i~~~~~---~~~w~~~~~~~------   91 (332)
+T c5opiC_          41 DPPIIFEASVDLVQIPQAEALLHADASGKEVTCEISRYFL---TAAWFMANVQV------   91 (332)
+T ss_dssp             SCCCCEEEEBCSCCTTHHHHHHTTTTTTCCCEEEEEESSS---SSCCEEEEEEC------
+T ss_pred             CCccCccCccccccCCChhhcccCCCCCCccEEEeeceeC---CCCeEEEEEEC------
+
+
+Q ss_pred             cccccccccCCCcceeeeEEEEeccccccCCCeEEEEEEecC-----Ccccccccccccc
+Q Undefined       389 DQVQAEAKESGPTTYKVTSTLTIKESDWLSQSMFTCRVDHRG-----LTFQQNASSMCVP  443 (680)
+Q Consensus       389 ~~~~~e~~~~~dgtfs~sS~LtI~~~~~~d~g~YTC~V~h~~-----~t~~~~~~~~~~~  443 (680)
+                                                  .+++.|.|.+....     .............
+T Consensus        92 ----------------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  123 (332)
+T c5opiC_          92 ----------------------------SGGGPSISLVMKTPRVLWHPTLNLPLSPQGTV  123 (332)
+T ss_dssp             ----------------------------GGGCCEEEEEEECCCSSBCCSSSCCCBCTTSE
+T ss_pred             ----------------------------CCCCeEEEEEeccCCcccccccccccCCCceE
+
+
+Q ss_pred             ccCCCceEEEecCCcceEeeCCceEEEEEEecCCCcceeEEEEEE----CCccccCCccc
+Q Undefined       444 DQDTAIRVFAIPPSFASIFLTKSTKLTCLVTDLTTYDSVTISWTR----QNGEAVKTHTN  499 (680)
+Q Consensus       444 ~~~~~p~V~i~pPs~~~i~~g~svtLtC~VsG~p~P~~vtIsW~k----dg~ev~~s~t~  499 (680)
+                      .......++..++. ..+..|+.++|.|.+.+.+.+..+.|.|++    .+..+..-...
+T Consensus       124 ~~~~~~~v~~~~~~-~~~~~g~~v~l~C~~~~~~~~~~~~v~W~~~~~~~~~~~~~~~~~  182 (332)
+T c5opiC_         124 RTAVEFQVMTQTQS-LSFLLGSSASLDCGFSMAPGLDLISVEWRLQHKGRGQLVYSWTAG  182 (332)
+T ss_dssp             ECEEEEEEEESCSE-EEEETTCCEEECCEEEECTT--BCCEEEEEEETTEEEEEEEECSS
+T ss_pred             EEEEEEEEEcCCCC-EEEeCCCceEeeeEEcCCCCCCceEEEEEEecCCCCeEEEEEeCC
+
+
+Q ss_pred             ceeccCCce----EEEEEEEEeccccccCCceEEEEEEcCCCCcccceeEEeeccCcccC
+Q Undefined       500 ISESHPNAT----FSAVGEASICEDDWNSGERFTCTVTHTDLPSPLKQTISRPKGVALHR  555 (680)
+Q Consensus       500 ~~~~~~nGt----~~~~S~L~I~~~~w~dgg~YtC~A~n~~g~~p~~~tis~~~~~~~~~  555 (680)
+                      .......+.    ...+.+|.|......|.|.|+|.+.+..+.......+....     +
+T Consensus       183 ~~~~~~~~~~~~~~~~~~sL~i~~~~~~d~G~Y~C~~~~~~~~~~~~~~l~v~~-----~  237 (332)
+T c5opiC_         183 QGQAVRKGATLLGMARDASLTLPGLTIQDEGTYICQITTSLYRAQQIIQLNIQA-----S  237 (332)
+T ss_dssp             CCCCSSS-EECSSSCCCCCEEECSCCGGGCEEEEEECCBSSCCCEEEEEEEEEB-----C
+T ss_pred             CCccccCceEEEecCCcEEEEECCCceeeCEEEEEEEEecCcccEEEEEEEEEc-----C
+
+
+Q ss_pred             ceeEeecCCcceeecCCeEEEEEEEeccCCcceEEEEEECCEEcccccccccccccccCC
+Q Undefined       556 PDVYLLPPAREQLNLRESATITCLVTGFSPADVFVQWAQRGQPLSPEKYVTSAPMPEPQA  615 (680)
+Q Consensus       556 P~V~~~pP~~e~v~~Ge~vTLtC~VsGf~P~dI~VtWlknG~~L~~~~~~t~~P~~~~~~  615 (680)
+                      |.+...+..     .|+.++|.|.+.+++|.++.|+|+++|.++...+.........  .
+T Consensus       238 P~~~~~~~~-----~g~~~~l~C~~~~~~p~~~~v~W~~~~~~~~~~~~~~~~~~~~--~  290 (332)
+T c5opiC_         238 PKVRLSLAN-----EALLPTLICDIAGYYPLDVVVTWTREESPAQVSGASFSSLRQS--V  290 (332)
+T ss_dssp             CEEEEEEES-----TTSSCEEEEEEEEEBSSCCEEEEEEESSCCEECCCCCCCCEEC--S
+T ss_pred             CeEEEeeec-----CCCCEEEEEEECCEeCCCCEEEEEECCcccccCCccccCcEEC--C
+
+
+Q ss_pred             CcceEEEEEEEecHhhcccCceEEEEEEcCCcCCceeeeeeccCCCCCceeeEEE
+Q Undefined       616 PGRYFAHSILTVSEEEWNTGETYTCVVAHEALPNRVTERTVDKSTGKPTLYNVSL  670 (680)
+Q Consensus       616 dgtys~~S~LtIs~s~~~~gg~YTC~V~Heal~~~~t~~~i~~stGkP~~vn~s~  670 (680)
+                      +|+|+..+.|.+..  .+++++|+|.|.|.++             ..|..+.+++
+T Consensus       291 ~g~~~~~~~~~~~~--~~~g~~y~C~~~~~~~-------------~~~~~~~~~~  330 (332)
+T c5opiC_         291 AGTYSISSSLTAEP--GSAGATYTCQVTHISL-------------EEPLGASTQV  330 (332)
+T ss_dssp             SSCEEEEEC-B-CC--CSSCEEEECEEECSSC-------------SSCBCCEEEE
+T ss_pred             CCCEEEEEEEEeee--cCCCCEEEEEEEcCCC-------------CCCeEEEEEe
+
+

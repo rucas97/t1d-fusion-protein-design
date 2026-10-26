@@ -1,0 +1,65 @@
+175 c5k6xA_ Probab=99.86  E-value=2e-19  Score=171.53  Aligned_cols=341  Identities=12%  Similarity=0.181  Sum_probs=0.0  Template_Neff=13.813
+
+Q ss_pred             cCccEEEEEEeeccccCceEEEEecCCCcccccceeecceecCCcEEEEEEEEeeccccc
+Q Undefined       247 DTSSVAVGCLAQDFLPDSITFSWKYKNNSDISSTRGFPSVLRGGKYAATSQVLLPSKDVM  306 (680)
+Q Consensus       247 ~~~~VtlgCla~gf~P~~vtvsW~~~~~s~~s~~~~~p~v~~~g~Ys~~Sqvtv~~~d~~  306 (680)
+                      ....++|.|.+.+..|  ..+.|..++.........             ..++|......
+T Consensus        20 ~g~~~~l~c~~~~~~~--~~~~w~~~~~~~~~~~~~-------------~~~~i~~~~~~   64 (374)
+T c5k6xA_          20 EGNRLVLTCMAEGSWP--LEFKWLHNNRELTRFSLE-------------YRYMITSLDRT   64 (374)
+T ss_pred             CCCeEEEEEEEeccCC--ceEEEEeCCeeccccccc-------------eeEeeccCCCC
+
+
+Q ss_pred             cCCceEEEEEEecCCCcccceeecccccccCcceeeecccccccccCCCceEEEEEEcCc
+Q Undefined       307 QGTDEHVVCKVQHPNGNKEKNVPLPVIAELPPKVSVFVPPRDGFFGNPRKSKLICQATGF  366 (680)
+Q Consensus       307 ~~~~~~~tC~V~H~~~~~~~~~~l~~~~~~pP~v~i~~pp~d~~~~~~~~a~L~C~vsGF  366 (680)
+                      .  ...|+|.+.+..+   ..........+.....+...+.......+....|.|...+.
+T Consensus        65 ~--~g~y~c~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~l~c~~~~~  119 (374)
+T c5k6xA_          65 H--AGFYRCIVRNRMG---ALLQRQTEVQVAYMGSFEEGEKRQSVNHGEAAVIRAPRISS  119 (374)
+T ss_pred             C--CeEEEEEEEcCCc---ceeeeceeeeeecccccccccceeeeccCCceEEEecccCC
+
+
+Q ss_pred             cCCceEEEEeecCccccccccccccccccccCCCcceeeeEEEEeccccccCCCeEEEEE
+Q Undefined       367 SPRQIQVSWLREGKQVGSGVTTDQVQAEAKESGPTTYKVTSTLTIKESDWLSQSMFTCRV  426 (680)
+Q Consensus       367 ~P~~I~VtW~KDG~~L~S~~~t~~~~~e~~~~~dgtfs~sS~LtI~~~~~~d~g~YTC~V  426 (680)
+                      .|.. .+.|+++|..+.............             |.|......+.+.|+|.+
+T Consensus       120 ~~~~-~~~w~~~~~~~~~~~~~~~~~~~~-------------~~~~~~~~~~~g~y~c~~  165 (374)
+T c5k6xA_         120 FPRP-QVTWFRDGRKIPPSSRIAITLENT-------------LVILSTVAPDAGRYYVQA  165 (374)
+T ss_pred             CCCC-eEEEEEcCeecCCCCceEEEeCCc-------------EEEEEeccCCceeEEEEE
+
+
+Q ss_pred             EecCC--ccccccccccccccCCCceEEEecCCcceEeeCCceEEEEEEecCCCcceeEE
+Q Undefined       427 DHRGL--TFQQNASSMCVPDQDTAIRVFAIPPSFASIFLTKSTKLTCLVTDLTTYDSVTI  484 (680)
+Q Consensus       427 ~h~~~--t~~~~~~~~~~~~~~~~p~V~i~pPs~~~i~~g~svtLtC~VsG~p~P~~vtI  484 (680)
+                      .+...  ..........+......+.+...+.....+..+..+.|.|.+.+.+.+ .+.+
+T Consensus       166 ~~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~l~c~~~~~~~~-~~~~  224 (374)
+T c5k6xA_         166 VNDKNGDNKTSQPITLAVENVPIAPTIIIPPKNTSVVAGTSEVTMECVANARPLI-KLHI  224 (374)
+T ss_pred             EecCCCCceeccceeeeeecCCCCCeEecCCCcceeecCCCeEEEEEEeecccCc-eeeE
+
+
+Q ss_pred             EEEECCccccCCcccceeccCCceEEEEEEEEeccccccCCceEEEEEEcCCCCccccee
+Q Undefined       485 SWTRQNGEAVKTHTNISESHPNATFSAVGEASICEDDWNSGERFTCTVTHTDLPSPLKQT  544 (680)
+Q Consensus       485 sW~kdg~ev~~s~t~~~~~~~nGt~~~~S~L~I~~~~w~dgg~YtC~A~n~~g~~p~~~t  544 (680)
+                      .|++++..+.......           ...|.|....+.+.|.|+|.+.+..+.......
+T Consensus       225 ~w~~~~~~~~~~~~~~-----------~~~l~i~~~~~~~~g~y~c~~~~~~~~~~~~~~  273 (374)
+T c5k6xA_         225 VWKKDGAPLSSGISDY-----------NRRLTIANPTVSDAGYYECEAMLRSSSVAPVTR  273 (374)
+T ss_pred             EeeeCCeecCCccccc-----------ceEEEEecCCCCCCeEEEEEEEeccccccceee
+
+
+Q ss_pred             EEeeccCcccCceeEeecCCcceeecCCeEEEEEEEeccCCcceEEEEEECCEEcccccc
+Q Undefined       545 ISRPKGVALHRPDVYLLPPAREQLNLRESATITCLVTGFSPADVFVQWAQRGQPLSPEKY  604 (680)
+Q Consensus       545 is~~~~~~~~~P~V~~~pP~~e~v~~Ge~vTLtC~VsGf~P~dI~VtWlknG~~L~~~~~  604 (680)
+                      .......  .+|.+...++....+..|+.++|.|.+.+.++.  .++|+++|..+.....
+T Consensus       274 ~~~~~~~--~~p~~~~~~~~~~~~~~~~~~~l~c~~~~~~~~--~~~w~~~~~~~~~~~~  329 (374)
+T c5k6xA_         274 GAYLSVL--EPPQFVREPERHITAEMEKVVDIPCRAKGVPPP--SITWYKDAALVEVGKL  329 (374)
+T ss_pred             eEEEeec--CCCceeecccceEEEeccceEEEEeeEeecCCC--eEEEEECCEEEecccE
+
+
+Q ss_pred             cccccccccCCCcceEEEEEEEecHhhcccCceEEEEEEcCCc
+Q Undefined       605 VTSAPMPEPQAPGRYFAHSILTVSEEEWNTGETYTCVVAHEAL  647 (680)
+Q Consensus       605 ~t~~P~~~~~~dgtys~~S~LtIs~s~~~~gg~YTC~V~Heal  647 (680)
+                      ........          ..|+|.....++.+.|+|.+.+...
+T Consensus       330 ~~~~~~~~----------~~l~i~~~~~~~~g~y~c~~~n~~g  362 (374)
+T c5k6xA_         330 TRFKQRSD----------GGLQISGLLPDDTGMLQCFAHNAAG  362 (374)
+T ss_pred             EEEEecCC----------CeEEEeccccCCceeEEEEEEcccc
+
+

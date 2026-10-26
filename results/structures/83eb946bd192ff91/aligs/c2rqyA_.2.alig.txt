@@ -1,0 +1,35 @@
+2 c2rqyA_ Probab=100.00  E-value=1.5e-53  Score=412.77  Aligned_cols=161  Identities=97%  Similarity=1.481  Sum_probs=155.2  Template_Neff=6.415
+
+Q ss_pred             CCcccCcccchHHHHHHHHHHHHhhhcccccCHHHHHHHHHHHHHhccCcccceEEEeec
+Q Undefined        51 GGGSLRPGDCEVCISYLGRFYQDLKDRDVTFSPATIENELIKFCREARGKENRLCYYIGA  110 (680)
+Q Consensus        51 ~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~cy~~g~  110 (680)
+                      |...+.+++|||||..|.+||..+.+.+..++..+||.+|.++|..+.+|++|+|||||+
+T Consensus        10 ~~~~~~~~~CeVC~~~l~~~~~~l~~~~~~~~~~~ie~~~~~~C~~~~~ke~r~Cyyig~   69 (171)
+T c2rqyA_          10 GRHMLRPGDCEVCISYLGRFYQDLKDRDVTFSPATIEEELIKFCREARGKENRLCYYIGA   69 (171)
+T ss_dssp             SSTTCCTTSCSSTTSSHHHHHHHHTTTTSCSSTTTTHHHHHHHHHTCCTHHHHHHHHHTC
+T ss_pred             cccccccccccccHHHHHHHHhhcccccCCCChHHHHHHHHHHHHhcCCcCcceeeeecC
+Confidence            345689999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cchhHHHHHHHhhccccccccHHHHHHHHHhhhhhhhhhhhhcccchhhcchhcccHHHH
+Q Undefined       111 TDDAATKIINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQIDLSTVDLKKLRVKEL  170 (680)
+Q Consensus       111 ~~~~~~~~~~~~~~~~~~~~~~~~~c~~l~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~l  170 (680)
+                      +.++|+.|+++|++|+..|+|+++||++|+++|+|||++||+|+++++++++++++||+|
+T Consensus        70 ~~~sat~~~~~vs~pls~~~p~~kiC~kL~k~d~qiC~lky~k~~d~~~~dl~KlrvkeL  129 (171)
+T c2rqyA_          70 TDDAATKIINEVSKPLAHHIPVEKICEKLKKKDSQICELKYDKQIDLSTVDLKKLRVKEL  129 (171)
+T ss_dssp             STTTTCSCSGGGTTTGGGTCSSSCCCCCGGGTCSTTTSCSSCCCCSSSSSSSSSTTHHHH
+T ss_pred             ccchhhhhHhhhhhccccCCChhhhhhhhccCccccceeecccccCCccchhhhccHHHH
+Confidence            999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHcCcccceeeechhHHHHHHHHhhhhCccccchhee
+Q Undefined       171 KKILDDWGETCKGCAEKSDYIRKINELMPKYAPKAASARTD  211 (680)
+Q Consensus       171 ~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~  211 (680)
+                      +++|++||+.|.+|.|++|+|++|+|+++++++.++.++..
+T Consensus       130 k~iL~~~g~~C~gC~EK~dfv~~i~e~~~~~~~~~~~~~~~  170 (171)
+T c2rqyA_         130 KKILDDWGEMCKGCAEKSDYIRKINELMPKYAPKAASARTD  170 (171)
+T ss_dssp             HHHHHHHCCCCSSCCCHHHHHHHTGGGHHHHCCCSSSSSSC
+T ss_pred             HHHHHhcCCcccccccchHHHHHHHHhCcccCccccccccC
+Confidence            99999999999999999999999999999999987777654
+
+

@@ -37,3 +37,13 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Interpretation:** The designed KR motif is a strong predicted substrate for proprotein convertases. The authentic mature MANF sequence introduces no additional predicted cleavage sites. The linker concept passes this validation step.
 - **Caveat:** Fcµ domain not yet included in the construct; this validation covers the N-terminal half only. Will re-run once the full fusion is assembled.
 - **Sequence source:** UniProt P55145 (MANF_HUMAN, SV=3), mature chain residues 25–182.
+
+### 2025-XX-XX — Immunogenicity screening (IEDB MHC-II)
+- **Tool:** IEDB MHC-II Binding Prediction (NetMHCIIpan 4.1 EL)
+- **Alleles:** Human 7-Allele Panel
+- **Input:** Exendin-4 - GSG-KR-(GGGGS)2 - MANF
+- **Results:**
+  - **Novel Linker:** Best binding percentile was 79% (very low risk). The PC2 linker is predicted to be non-immunogenic.
+  - **MANF Domain:** A few moderate binders (percentile ~0.5-1%), consistent with a human self-protein.
+  - **Exendin-4 Domain:** Strong binders found (percentile 0.08% - 0.4%). This is expected, as Exendin-4 is a non-human (Gila monster) sequence.
+- **Decision:** To minimize long-term ADA (Anti-Drug Antibody) risk, we must swap Exendin-4 for a human GLP-1 receptor agonist sequence (e.g., human GLP-1 7-37) in the next design iteration.

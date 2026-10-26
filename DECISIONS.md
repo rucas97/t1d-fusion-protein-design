@@ -68,3 +68,13 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool:** ProP 1.0b (Furin-type prediction)
 - **Result:** Intended KR linker site scored 0.236 (Not predicted). Total predicted Furin sites: 0.
 - **Interpretation:** The v2.0 construct is highly stable in systemic circulation. The novel linker is highly specific to PC2 (score 0.871) and resists ubiquitous Furin cleavage (score 0.236). Spatial activation is confirmed to be pancreas-specific.
+
+### 2025-XX-XX — Immunogenicity Screening (v2.0) & Junction Analysis
+- **Tool:** IEDB MHC-II Binding Prediction (NetMHCIIpan 4.1 EL)
+- **Alleles:** Human 7-Allele Panel
+- **Input:** v2.0 Construct (Human GLP-1 - Linker - MANF - FcMu_R595A)
+- **Results:**
+  - **Linker & Junctions:** Highly stealthy. Junction 1 (GLP-1/linker) max score: 19%. Linker core max score: 92%. Junction 2 (linker/MANF) max score: 69%. The novel linker design does not introduce immunogenic neo-epitopes.
+  - **GLP-1 Domain:** Shows strong binding for HLA-DRB3 (score 0.05%), but as a native human hormone, central tolerance is expected to prevent an immune response.
+  - **FcMu Domain:** Contains some strong binders (e.g., 0.01%), expected for a human constant region, but standard for antibody-based therapeutics.
+- **Interpretation:** Humanization from Exendin-4 to GLP-1 successfully removed the foreign non-human immunogenicity. The engineered linker passes this rigorous screening.

@@ -47,3 +47,9 @@ This becomes the "Methods rationale" section of the manuscript.
   - **MANF Domain:** A few moderate binders (percentile ~0.5-1%), consistent with a human self-protein.
   - **Exendin-4 Domain:** Strong binders found (percentile 0.08% - 0.4%). This is expected, as Exendin-4 is a non-human (Gila monster) sequence.
 - **Decision:** To minimize long-term ADA (Anti-Drug Antibody) risk, we must swap Exendin-4 for a human GLP-1 receptor agonist sequence (e.g., human GLP-1 7-37) in the next design iteration.
+
+### 2025-XX-XX — Full Construct v1.0 ProP Validation & Patch (v1.1)
+- **Tool:** ProP 1.0b (General PC prediction)
+- **Result:** Intended KR site (pos 44) scored 0.871 (Predicted). However, an off-target site was found in the Fcµ CH3 domain (pos 595, `FVQWMQR|GQ`) scoring 0.546 (Predicted).
+- **Decision:** To prevent unintended cleavage of the Treg-recruiting Fcµ domain, mutate the Arginine at position 595 to an Alanine (R595A). This eliminates the cleavage motif without disrupting the Fc domain structure.
+- **Resulting Construct:** v1.1 (Exendin-4 - GSG-KR-(GGGGS)2 - MANF - (GGGGS)3 - FcMu_R595A).

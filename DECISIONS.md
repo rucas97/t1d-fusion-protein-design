@@ -26,3 +26,14 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Alternatives considered:** (1) Generic (GGGGS)3 (non-cleavable baseline). (2) Other protease motifs (furin, MMP). (3) Rigid linkers (EAAAK)n.
 - **Rationale:** PC2 is enriched in pancreatic islets and beta cells, providing a spatial activation signal. The flexible GS spacers ensure protease accessibility and independent domain folding. This design is novel for T1D fusion proteins and directly addresses the "islet-specific biology" gap.
 - **References:** PC2 specificity (K-R↓) and islet expression [0†L28-L35, 7†L19-L24]. Linker flexibility and protease access [8†L28-L48].
+
+### 2025-XX-XX — ProP validation of PC2-cleavable linker (Candidate 1, corrected)
+- **Tool:** ProP 1.0b (DTU Health Tech), General PC prediction mode
+- **Input:** Full fusion sequence: Exendin-4 – GSG-KR-(GGGGS)2 – mature human MANF (UniProt P55145, residues 25–182) – (Fcµ placeholder pending)
+- **Result:**
+  - Intended KR site (pos 44, `PSGSGKR|GG`): score **0.871**, predicted cleavage ✅
+  - Highest non-intended site (pos 172, `RVKELKK|IL`): score **0.193**, NOT predicted
+  - All other Arg/Lys sites: score < 0.16, not predicted
+- **Interpretation:** The designed KR motif is a strong predicted substrate for proprotein convertases. The authentic mature MANF sequence introduces no additional predicted cleavage sites. The linker concept passes this validation step.
+- **Caveat:** Fcµ domain not yet included in the construct; this validation covers the N-terminal half only. Will re-run once the full fusion is assembled.
+- **Sequence source:** UniProt P55145 (MANF_HUMAN, SV=3), mature chain residues 25–182.

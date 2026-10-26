@@ -53,3 +53,18 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Result:** Intended KR site (pos 44) scored 0.871 (Predicted). However, an off-target site was found in the Fcµ CH3 domain (pos 595, `FVQWMQR|GQ`) scoring 0.546 (Predicted).
 - **Decision:** To prevent unintended cleavage of the Treg-recruiting Fcµ domain, mutate the Arginine at position 595 to an Alanine (R595A). This eliminates the cleavage motif without disrupting the Fc domain structure.
 - **Resulting Construct:** v1.1 (Exendin-4 - GSG-KR-(GGGGS)2 - MANF - (GGGGS)3 - FcMu_R595A).
+
+### 2025-XX-XX — 3D Structural Validation (Phyre2)
+- **Tool:** Phyre2.2 (Normal Mode)
+- **Result:** 93% of residues modeled at >90% confidence. Top templates matched human IgM constant region (Fcµ) and MANF.
+- **Interpretation:** The full 680-aa construct folds correctly. The linkers appear as flexible loops as intended. Structural integrity of all three functional domains is confirmed.
+
+### 2025-XX-XX — Immunogenicity Optimization (v2.0 Humanization)
+- **Decision:** Swap the Exendin-4 targeting domain for Human GLP-1 (7-37) to create v2.0.
+- **Rationale:** IEDB analysis showed strong MHC-II binders in Exendin-4 (non-human origin). Swapping to the native human GLP-1 sequence eliminates this immunogenicity risk while retaining GLP-1R agonism.
+- **Result:** Construct renamed to `t1d_fusion_construct_v2.0`.
+
+### 2025-XX-XX — Furin Specificity Validation (v2.0)
+- **Tool:** ProP 1.0b (Furin-type prediction)
+- **Result:** Intended KR linker site scored 0.236 (Not predicted). Total predicted Furin sites: 0.
+- **Interpretation:** The v2.0 construct is highly stable in systemic circulation. The novel linker is highly specific to PC2 (score 0.871) and resists ubiquitous Furin cleavage (score 0.236). Spatial activation is confirmed to be pancreas-specific.

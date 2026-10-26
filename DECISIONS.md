@@ -20,3 +20,9 @@ This becomes the "Methods rationale" section of the manuscript.
   GLP-1R agonism in one module. Harmine is a small molecule, not a protein,
   so it doesn't fit a single-molecule fusion design.
 - **References:** (to be added from PubMed)
+
+### 2025-XX-XX — Linker design strategy: PC2-cleavable chimeric linker
+- **Decision:** Adopt a chimeric linker with a central PC2 cleavage motif (KR) flanked by flexible glycine-serine spacers. Candidate 1: `GSG-KR-(GGGGS)2`.
+- **Alternatives considered:** (1) Generic (GGGGS)3 (non-cleavable baseline). (2) Other protease motifs (furin, MMP). (3) Rigid linkers (EAAAK)n.
+- **Rationale:** PC2 is enriched in pancreatic islets and beta cells, providing a spatial activation signal. The flexible GS spacers ensure protease accessibility and independent domain folding. This design is novel for T1D fusion proteins and directly addresses the "islet-specific biology" gap.
+- **References:** PC2 specificity (K-R↓) and islet expression [0†L28-L35, 7†L19-L24]. Linker flexibility and protease access [8†L28-L48].

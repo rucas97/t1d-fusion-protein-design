@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Temp / OS junk
+*.tmp
+*.log
+~*
+.DS_Store
+Thumbs.db
+
+# Termux-created files
+*.swp

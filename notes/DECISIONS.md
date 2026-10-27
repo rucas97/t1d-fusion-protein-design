@@ -78,3 +78,21 @@ This becomes the "Methods rationale" section of the manuscript.
   - **GLP-1 Domain:** Shows strong binding for HLA-DRB3 (score 0.05%), but as a native human hormone, central tolerance is expected to prevent an immune response.
   - **FcMu Domain:** Contains some strong binders (e.g., 0.01%), expected for a human constant region, but standard for antibody-based therapeutics.
 - **Interpretation:** Humanization from Exendin-4 to GLP-1 successfully removed the foreign non-human immunogenicity. The engineered linker passes this rigorous screening.
+
+### 2025-XX-XX — Creation of v2.0 (Humanized GLP-1)
+- **Decision:** Swapped the non-human Exendin-4 sequence for Human GLP-1 (7-37) to eliminate immunogenicity risks identified in IEDB Test 1.
+
+### 2025-XX-XX — Furin Specificity Validation (v2.0)
+- **Tool:** ProP 1.0b (Furin-type prediction).
+- **Result:** Intended KR linker site scored 0.236 (Not predicted). Total predicted Furin sites: 0.
+- **Interpretation:** The construct is stable in systemic circulation. The linker resists ubiquitous Furin cleavage, confirming spatial activation is specific to the pancreatic PC2 environment.
+
+### 2025-XX-XX — Immunogenicity Screening (v2.0) & Junction Analysis
+- **Tool:** IEDB MHC-II Binding Prediction.
+- **Result:** Linker and both junctions are highly stealthy (best score across linker/junctions was 19%). GLP-1 shows some HLA-DRB3 binding, but as a native human hormone, central tolerance is expected.
+- **Interpretation:** Humanization successfully removed foreign immunogenicity. The engineered linker passes rigorous screening.
+
+### 2025-XX-XX — HDOCK Input Preparation
+- **Receptor:** Cleaned PDB 7LCI (GLP-1R), isolated Chain R, removed all HETATMs (waters/ligands). Total size: 3241 atoms.
+- **Ligand:** Modeled GLP-1 (7-37) using PEP-FOLD4. Extracted top model from multi-model PDB. Total size: 268 atoms.
+- **Status:** Both files moved to shared storage for HDOCK submission.

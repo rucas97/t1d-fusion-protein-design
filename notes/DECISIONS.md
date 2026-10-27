@@ -132,3 +132,12 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Input:** `v2.0_full_alphafold.cif` (Complete 680-amino-acid AlphaFold model).
 - **Result:** The RMSF plot spans the entire sequence (0-680). The folded domains (GLP-1, MANF, Fcµ) show low RMSF values (~0.5-1.5), indicating structural stability. The engineered linkers (residues ~45-60 and ~210-220) show high RMSF values (peaks > 4.0), confirming they act as highly flexible hinges. The N- and C-termini also show expected flexibility.
 - **Interpretation:** The v2.0 construct is structurally sound. The domains fold stably, and the novel linkers provide the necessary flexibility to prevent steric clashes and allow independent domain function.
+
+### 2025-XX-XX — Developability & Aggregation Analysis (Step 1)
+- **Tool 1:** ExPASy ProtParam.
+  - **Instability Index:** 35.99 (Classified as STABLE; threshold is <40).
+  - **GRAVY:** -0.398 (Hydrophilic, highly soluble).
+  - **Charge:** 75 (neg) / 77 (pos) (Balanced).
+- **Tool 2:** AggreProt.
+  - **Result:** The Aggregation-Prone Regions (APRs) are largely localized to the Fcµ domain (expected for an immune molecule). Crucially, the GLP-1 targeting domain (N-terminus) and the novel PC2 linker (residues 40-60) show negligible aggregation propensity.
+- **Interpretation:** The v2.0 construct is chemically stable, highly soluble, and the engineered linker does not introduce a risk of aggregation. It passes the primary developability screening.

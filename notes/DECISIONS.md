@@ -105,3 +105,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Resulting Model:** `structures/hdock_glp1_complex.pdb`
 - **Caveat:** HDOCK flagged low local quality for the isolated ligand, expected for a de novo peptide model (PEP-FOLD4) versus an experimental structure. However, the highly negative docking score indicates a strong structural fit.
 - **Interpretation:** The targeting module (GLP-1) is structurally competent and successfully docks into the GLP-1 receptor. The receptor-binding arm of the v2.0 fusion protein is validated.
+
+### 2025-XX-XX — Full 680-aa AlphaFold Model Acquired & Converted
+- **Action:** Successfully generated the full 680-amino-acid AlphaFold structure (`.cif`) and converted it to `.pdb` via a web server.
+- **File:** `structures/v2.0_full_alphafold.pdb` (~5,400 atoms).
+- **Decision:** The Phyre2 model (which had 7% missing residues) has been archived. All final validations (CABS-flex and HDOCK) will use the complete AlphaFold model.

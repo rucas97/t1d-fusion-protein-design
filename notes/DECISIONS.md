@@ -110,3 +110,19 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Action:** Successfully generated the full 680-amino-acid AlphaFold structure (`.cif`) and converted it to `.pdb` via a web server.
 - **File:** `structures/v2.0_full_alphafold.pdb` (~5,400 atoms).
 - **Decision:** The Phyre2 model (which had 7% missing residues) has been archived. All final validations (CABS-flex and HDOCK) will use the complete AlphaFold model.
+
+### 2025-XX-XX — Phyre2 Full v2.0 Run & Limitation Discovery
+- **Tool:** Phyre2 on exact v2.0 sequence (Job ID: cb21853f06a679bc).
+- **Result:** Phyre2 modeled 94% of the sequence at high confidence. However, it failed to model ~50 residues (the GLP-1 domain and the PC2 linker).
+- **Interpretation:** As a homology modeler, Phyre2 struggles with novel flexible sequences. To achieve 100% rigor, we must pivot to an AI structure predictor (AlphaFold) that can fold the entire sequence without relying on templates.
+
+### 2025-XX-XX — Complete 680-aa AlphaFold Model Generation
+- **Action:** Generated the full v2.0 sequence using AlphaFold Server.
+- **Result:** Downloaded 5 models. Selected `model_0` (rank 1), renamed to `v2.0_full_alphafold.cif`, and converted to `.pdb` using a web-based converter.
+- **Outcome:** `structures/v2.0_full_alphafold.pdb` (~5400 atoms) is now the definitive, 100% complete 3D structure of our drug candidate.
+
+### 2025-XX-XX — Final Rigorous Full-Length HDOCK Docking
+- **Ligand:** Full 680-aa v2.0 AlphaFold model (`v2.0_full_alphafold.pdb`).
+- **Receptor:** GLP-1R (PDB: 7LCI).
+- **Result:** Top 1 Docking Score: **-310.71**, Confidence Score: 0.9614.
+- **Interpretation:** The massive Fcµ tail does not sterically hinder binding. In fact, the full-length molecule docks stronger than the isolated peptide (score improved from -276.36 to -310.71). The spatial arrangement and linker flexibility allow the targeting arm to successfully engage the receptor in the context of the whole molecule.

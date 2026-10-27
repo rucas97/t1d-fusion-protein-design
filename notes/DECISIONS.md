@@ -126,3 +126,9 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Receptor:** GLP-1R (PDB: 7LCI).
 - **Result:** Top 1 Docking Score: **-310.71**, Confidence Score: 0.9614.
 - **Interpretation:** The massive Fcµ tail does not sterically hinder binding. In fact, the full-length molecule docks stronger than the isolated peptide (score improved from -276.36 to -310.71). The spatial arrangement and linker flexibility allow the targeting arm to successfully engage the receptor in the context of the whole molecule.
+
+### 2025-XX-XX — Final Structural Dynamics (CABS-flex on Full AlphaFold Model)
+- **Tool:** CABS-flex 3.0.
+- **Input:** `v2.0_full_alphafold.cif` (Complete 680-amino-acid AlphaFold model).
+- **Result:** The RMSF plot spans the entire sequence (0-680). The folded domains (GLP-1, MANF, Fcµ) show low RMSF values (~0.5-1.5), indicating structural stability. The engineered linkers (residues ~45-60 and ~210-220) show high RMSF values (peaks > 4.0), confirming they act as highly flexible hinges. The N- and C-termini also show expected flexibility.
+- **Interpretation:** The v2.0 construct is structurally sound. The domains fold stably, and the novel linkers provide the necessary flexibility to prevent steric clashes and allow independent domain function.

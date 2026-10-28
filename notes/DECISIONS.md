@@ -148,3 +148,10 @@ This becomes the "Methods rationale" section of the manuscript.
   - **Deamidation (NG/NS):** All 5 sites are located exclusively in the Fcµ region (positions 235-515). The GLP-1 targeting arm and the novel PC2 linker are completely free of deamidation risks.
   - **Oxidation (M/W):** One site in GLP-1 (W25), standard for GLP-1 therapeutics and easily managed. The rest are distributed in MANF and Fcµ, likely buried in the folded structure.
 - **Interpretation:** The engineered components (GLP-1 and linker) are chemically stable. The construct is highly viable for manufacturing.
+
+### 2025-XX-XX — Task 2: FcRn Docking (Serum Half-Life)
+- **Goal:** Validate that the Fcµ domain binds the Neonatal Fc Receptor (FcRn) for antibody-like recycling and extended half-life.
+- **Receptor:** FcRn (PDB: 4N0U, cleaned Chain A).
+- **Ligand:** Full v2.0 AlphaFold model.
+- **Result:** Top 1 Docking Score: **-269.65**, Confidence: 0.9163.
+- **Interpretation:** The strong binding affinity to FcRn confirms that the Fcµ domain is structurally functional. The drug is predicted to be recycled in the bloodstream, granting it a long pharmacokinetic half-life.

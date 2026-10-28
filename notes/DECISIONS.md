@@ -190,3 +190,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Structural Quality (MolProbity):** The AlphaFold model scored in the 99th percentile for clashscore (3.73) and 96th percentile for MolProbity score (1.50). 
 - **Outlier Analysis:** Ramachandran outliers are at 2.24% (above the <0.05% goal). This is expected for AlphaFold models containing long, flexible engineered linkers (which lack defined phi/psi angles). 
 - **Conclusion:** The structure is of high computational quality and free of major steric clashes.
+
+### 2025-XX-XX — Batch A: NCBI BLAST Sequence Audit
+- **Tool:** NCBI BLASTp (Non-redundant protein sequences).
+- **Result:** Top hits are exclusively mammalian immunoglobulin heavy constant mu (IgM) and monoclonal antibodies (E-value: 0.0, Query Cover: 92-99%).
+- **Interpretation:** BLAST correctly identifies the dominant Fcµ region of the construct. There are no unexpected bacterial, viral, or non-mammalian off-target matches. The sequence is structurally continuous and highly homologous to intended human immune proteins.

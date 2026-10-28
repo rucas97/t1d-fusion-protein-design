@@ -173,3 +173,9 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Input:** Full v2.0 FASTA sequence.
 - **Result:** Solubility score = **0.931** (Scale: 0 to 1, where >0.5 is soluble).
 - **Interpretation:** The construct is predicted to be highly soluble upon expression. This aligns perfectly with the ProtParam GRAVY score (-0.398) and AggreProt analysis. The v2.0 construct is highly viable for wet-lab expression and manufacturing.
+
+### 2025-XX-XX — Task 3b: Isolated GLP-1 Peptide Off-Target Docking
+- **Goal:** Assess specificity by docking the isolated GLP-1 peptide against the Glucagon Receptor (GCGR).
+- **Result:** Top 1 Docking Score: -285.58 (On-target GLP-1R score was -276.36).
+- **Interpretation & Concern:** The rigid docking algorithm found a highly favorable shape-complementary fit for the GLP-1 peptide in the Glucagon Receptor pocket. This is a known limitation of rigid docking when comparing homologous Class B GPCRs. However, the full-length drug construct preferred GLP-1R (-310 vs -297), suggesting the Fcµ tail provides steric hindrance against off-target binding. 
+- **Caveat:** Computational docking cannot definitively rule out cross-reactivity. A wet-lab cAMP accumulation assay is required to confirm true functional specificity.

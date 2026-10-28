@@ -141,3 +141,10 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool 2:** AggreProt.
   - **Result:** The Aggregation-Prone Regions (APRs) are largely localized to the Fcµ domain (expected for an immune molecule). Crucially, the GLP-1 targeting domain (N-terminus) and the novel PC2 linker (residues 40-60) show negligible aggregation propensity.
 - **Interpretation:** The v2.0 construct is chemically stable, highly soluble, and the engineered linker does not introduce a risk of aggregation. It passes the primary developability screening.
+
+### 2025-XX-XX — Task 1: PTM Liability Scan (Chemical Stability)
+- **Tool:** Custom Python sequence scanner.
+- **Result:** 
+  - **Deamidation (NG/NS):** All 5 sites are located exclusively in the Fcµ region (positions 235-515). The GLP-1 targeting arm and the novel PC2 linker are completely free of deamidation risks.
+  - **Oxidation (M/W):** One site in GLP-1 (W25), standard for GLP-1 therapeutics and easily managed. The rest are distributed in MANF and Fcµ, likely buried in the folded structure.
+- **Interpretation:** The engineered components (GLP-1 and linker) are chemically stable. The construct is highly viable for manufacturing.

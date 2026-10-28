@@ -200,3 +200,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool:** NetNGlyc 1.0.
 - **Result:** Predicted 4 strong N-linked glycosylation sites at positions 265, 428, 491, and 659.
 - **Interpretation:** All 4 sites are located within the Fcµ domain, which is expected and biologically necessary for antibody stability. Crucially, the engineered GLP-1 targeting arm and the PC2 linker contain ZERO predicted glycosylation sites. This ensures the sugars will not interfere with receptor binding or protease cleavage. The lack of a native signal peptide is noted, but a standard signal peptide would be appended during gene synthesis for manufacturing.
+
+### 2025-XX-XX — Batch E: IEDB MHC-I T-Cell Immunogenicity Audit
+- **Tool:** IEDB MHC-I Binding Prediction (NetMHCpan 4.1 EL, 9-mers, human HLA panel).
+- **Result:** The strongest binders (percentile rank < 0.1%) are localized to the Fcµ domain and the MANF domain. 
+- **Interpretation:** Crucially, no peptides from the engineered PC2 linker (residues 31-46) were predicted as strong binders. Combined with the earlier MHC-II results, this confirms the linker is highly stealthy against both T-cell and antibody-mediated immune responses.

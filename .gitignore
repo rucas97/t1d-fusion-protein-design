@@ -12,3 +12,11 @@ Thumbs.db
 
 # Termux-created files
 *.swp
+*.xtc
+*.tpr
+*.gro
+*.zip
+*.xtc
+*.tpr
+biobb*
+top.pdb

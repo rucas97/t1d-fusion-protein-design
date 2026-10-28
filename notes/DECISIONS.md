@@ -221,3 +221,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Result:** TM-score: 0.514, RMSD: 6.81 Å, Aligned length: 489/672.
 - **Interpretation:** The individual domains (MANF, Fcµ) fold into the same shape, but the overall orientation of the domains relative to each other varies significantly between models. This is driven by the highly flexible GGGGS linkers, which allow the domains to swing around. This confirms the structural dynamics observed in CABS-flex.
 - **Limitation:** AlphaFold does not guarantee a single rigid structure for highly flexible multi-domain proteins. The model used for docking (model_0) represents one thermodynamically plausible conformation among many.
+
+### 2025-XX-XX — Batch H: FoldSeek Structural Homology Validation
+- **Tool:** FoldSeek (searching against the AlphaFold/PDB database).
+- **Result:** Top hit was Human Immunoglobulin heavy constant mu (P01871) with a perfect structural match (TM-score 1.00, probability 99.5%, E-value 2.25e-84). Subsequent hits included Human MANF (P55145) with strong structural alignment (E-value 1.80e-24). 
+- **Interpretation:** The AlphaFold-predicted structure perfectly matches the canonical 3D folds of its constituent natural human domains. There are no structurally anomalous regions. The engineered construct folds exactly as intended.

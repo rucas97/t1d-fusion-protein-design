@@ -155,3 +155,10 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Ligand:** Full v2.0 AlphaFold model.
 - **Result:** Top 1 Docking Score: **-269.65**, Confidence: 0.9163.
 - **Interpretation:** The strong binding affinity to FcRn confirms that the Fcµ domain is structurally functional. The drug is predicted to be recycled in the bloodstream, granting it a long pharmacokinetic half-life.
+
+### 2025-XX-XX — Task 2: FcRn Docking (Serum Half-Life)
+- **Goal:** Validate that the Fcµ domain binds the Neonatal Fc Receptor (FcRn) for antibody-like recycling and extended half-life.
+- **Receptor:** FcRn (PDB: 4N0U, cleaned Chain A).
+- **Ligand:** Full v2.0 AlphaFold model.
+- **Result:** Top 1 Docking Score: **-269.65**, Confidence: 0.9163.
+- **Interpretation:** The strong binding affinity to FcRn confirms that the Fcµ domain is structurally functional. The drug is predicted to be recycled in the bloodstream, granting it a long pharmacokinetic half-life.

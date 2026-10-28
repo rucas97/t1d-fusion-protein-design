@@ -214,3 +214,10 @@ This becomes the "Methods rationale" section of the manuscript.
   - **Total Contacts:** 640 atom-atom contacts (5.0 Å cutoff).
   - **Interface Residues:** 43 residues on the receptor, 40 residues on the drug.
 - **Interpretation:** The physical interface between the v2.0 drug and the GLP-1 receptor is extensive, dense, and highly stable. This hard physical data validates the HDOCK score and proves the drug forms a legitimate, biologically relevant complex.
+
+### 2025-XX-XX — Batch H: Comparative AlphaFold Analysis
+- **Tool:** TM-align.
+- **Comparison:** model_0 vs model_1.
+- **Result:** TM-score: 0.514, RMSD: 6.81 Å, Aligned length: 489/672.
+- **Interpretation:** The individual domains (MANF, Fcµ) fold into the same shape, but the overall orientation of the domains relative to each other varies significantly between models. This is driven by the highly flexible GGGGS linkers, which allow the domains to swing around. This confirms the structural dynamics observed in CABS-flex.
+- **Limitation:** AlphaFold does not guarantee a single rigid structure for highly flexible multi-domain proteins. The model used for docking (model_0) represents one thermodynamically plausible conformation among many.

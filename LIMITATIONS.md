@@ -14,3 +14,7 @@ This document explicitly records the limitations of the current computational pi
 ## 3. Unperformed Comparative Analysis
 - **Alternative Structural Models:** We did not run a structural alignment (e.g., DALI or FoldSeek) comparing AlphaFold `model_0` to `model_1` through `model_4` to verify the stability of the predicted fold.
 - **Alternative Docking Poses:** We only analyzed the Top 1 docking pose from HDOCK for the on-target and off-target receptors. We did not perform a rigorous analysis of poses 2 through 10.
+
+## 5. AlphaFold Model Variance
+- **Finding:** Comparative alignment of AlphaFold models (model_0 vs model_1) yielded a TM-score of 0.514 and RMSD of 6.81 Å.
+- **Impact:** The relative orientation of the folded domains varies due to the flexible linkers. While the domain folds are consistent, the overall global conformation is dynamic. Docking results should be interpreted as binding to one specific plausible conformation, not a rigidly fixed structure.

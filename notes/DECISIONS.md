@@ -167,3 +167,9 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Goal:** Check for cross-reactivity against the Glucagon Receptor (GCGR), a structurally homologous off-target.
 - **Result:** Top 1 Docking Score: **-297.39** (vs -310.71 for GLP-1R).
 - **Interpretation:** The full-length protein shows strong binding to GCGR in rigid docking. This is expected due to the high structural homology between Class B GPCRs and the massive surface area of the Fcµ tail. To prove true biological specificity, a domain-level (isolated peptide) comparison is required.
+
+### 2025-XX-XX — Task 4: Solubility Prediction (DeepSoluE)
+- **Tool:** DeepSoluE (Job ID: 6c5839cbf8).
+- **Input:** Full v2.0 FASTA sequence.
+- **Result:** Solubility score = **0.931** (Scale: 0 to 1, where >0.5 is soluble).
+- **Interpretation:** The construct is predicted to be highly soluble upon expression. This aligns perfectly with the ProtParam GRAVY score (-0.398) and AggreProt analysis. The v2.0 construct is highly viable for wet-lab expression and manufacturing.

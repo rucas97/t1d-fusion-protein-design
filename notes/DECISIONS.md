@@ -195,3 +195,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool:** NCBI BLASTp (Non-redundant protein sequences).
 - **Result:** Top hits are exclusively mammalian immunoglobulin heavy constant mu (IgM) and monoclonal antibodies (E-value: 0.0, Query Cover: 92-99%).
 - **Interpretation:** BLAST correctly identifies the dominant Fcµ region of the construct. There are no unexpected bacterial, viral, or non-mammalian off-target matches. The sequence is structurally continuous and highly homologous to intended human immune proteins.
+
+### 2025-XX-XX — Batch F: NetNGlyc Glycosylation Audit
+- **Tool:** NetNGlyc 1.0.
+- **Result:** Predicted 4 strong N-linked glycosylation sites at positions 265, 428, 491, and 659.
+- **Interpretation:** All 4 sites are located within the Fcµ domain, which is expected and biologically necessary for antibody stability. Crucially, the engineered GLP-1 targeting arm and the PC2 linker contain ZERO predicted glycosylation sites. This ensures the sugars will not interfere with receptor binding or protease cleavage. The lack of a native signal peptide is noted, but a standard signal peptide would be appended during gene synthesis for manufacturing.

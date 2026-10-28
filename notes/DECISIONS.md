@@ -162,3 +162,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Ligand:** Full v2.0 AlphaFold model.
 - **Result:** Top 1 Docking Score: **-269.65**, Confidence: 0.9163.
 - **Interpretation:** The strong binding affinity to FcRn confirms that the Fcµ domain is structurally functional. The drug is predicted to be recycled in the bloodstream, granting it a long pharmacokinetic half-life.
+
+### 2025-XX-XX — Task 3: Off-Target Docking (Glucagon Receptor)
+- **Goal:** Check for cross-reactivity against the Glucagon Receptor (GCGR), a structurally homologous off-target.
+- **Result:** Top 1 Docking Score: **-297.39** (vs -310.71 for GLP-1R).
+- **Interpretation:** The full-length protein shows strong binding to GCGR in rigid docking. This is expected due to the high structural homology between Class B GPCRs and the massive surface area of the Fcµ tail. To prove true biological specificity, a domain-level (isolated peptide) comparison is required.

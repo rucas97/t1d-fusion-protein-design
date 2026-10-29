@@ -271,3 +271,7 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Fragment 1 (N-term):** `HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRGGSGKR` (GLP-1 targeting arm).
 - **Fragment 2 (C-term):** `GGGGSGGGGSLRPGDCEVC...` (Linker + MANF + Fcµ).
 - **Interpretation:** Cleavage releases the GLP-1 arm, potentially allowing it to engage the receptor more freely without steric hindrance from the massive Fcµ tail. This addresses the reviewer's question about the "active molecular species."
+
+### 2025-XX-XX — Construct Identity & PC2 Cleavage Simulation
+- **Mutation Verification (R595A):** Re-run with the exact v2.0 sequence. Residue 595 is confirmed to be Alanine (A), verifying the engineered R595A mutation is present.
+- **PC2 Cleavage Products:** Simulated cleavage at the KR motif (position 34). The cleavage releases Fragment 1 (N-term: GLP-1 targeting arm, 36 aa) from Fragment 2 (C-term: Linker + MANF + Fcµ, 636 aa). This confirms that PC2 activation spatially separates the targeting arm from the bulky immune-shielding tail.

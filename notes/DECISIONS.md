@@ -259,3 +259,9 @@ This becomes the "Methods rationale" section of the manuscript.
   - **Free Cysteines:** Several free cysteines were predicted in the MANF domain, consistent with its native fold.
   - **Subcellular Location:** Predicted "Nucleus" (Expected artifact due to the absence of a signal peptide in the mature sequence).
 - **Interpretation:** The Fcµ domain retains its native internal disulfide connectivity, crucial for its stability. The absence of disulfide bonds in the linker confirms it will not crosslink nonspecifically. Because the construct lacks the IgM tailpiece, it is predicted to remain monomeric, avoiding the native pentameric oligomerization of IgM.
+
+### 2025-XX-XX — Reviewer Request: Residue Numbering Verification
+- **Tool:** Terminal `grep` and `cut` commands on `v2.0_full_alphafold.pdb`.
+- **Result:** The highest residue number in the AlphaFold PDB file is 671. 
+- **Sequence Calculation:** GLP-1 (31) + Linker 1 (15) + MANF (158) + Linker 2 (15) + Fcµ (452) = 671.
+- **Interpretation:** The AlphaFold model has exact 1:1 correspondence with the designed sequence. No residues are missing. The previous approximation of 680 aa is corrected to 671 aa.

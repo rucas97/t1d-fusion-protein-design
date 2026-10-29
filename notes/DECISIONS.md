@@ -312,3 +312,9 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool 2 (ElliPro):** IEDB B-cell epitope prediction.
   - **Result:** The `GGGGS` linker regions are predicted to be strong linear B-cell epitopes (Linker 2 score: 0.889, Linker 1 score: 0.587).
   - **Interpretation:** While the linker is stealthy to T-cells, it is highly visible to B-cells. This presents a high risk for Anti-Drug Antibodies (ADAs) in vivo.
+
+### 2025-XX-XX — Reviewer Request: FcµR Immune Receptor Docking
+- **Tool:** HDOCK.
+- **Input:** Receptor: fcmur_receptor.pdb (6K8A). Ligand: isolated_fcmu.pdb.
+- **Result:** Top 1 Docking Score: **-222.03**, Confidence Score: 0.8085.
+- **Interpretation:** The isolated Fcµ domain structurally binds the human FcµR (Fc receptor for IgM) with a favorable score. This supports the proposed immune-shielding mechanism (Treg recruitment/immune modulation) at the structural level.

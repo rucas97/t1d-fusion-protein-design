@@ -136,7 +136,7 @@ This is the comprehensive, chronological checklist of all validations performed 
   - **Script:** `analyze_glycan_clashes.py` (Calculates distance from N-glycosylation sites to receptor).
   - **Success:** N659 is 7.33 Å (potential clash); others are >18 Å. Proves PC2 cleavage is necessary to remove bulky glycans.
 
-- [ ] **6.3 FcµR Docking (Immune Receptor)**
+- [x] **6.3 FcµR Docking (Immune Receptor)**
   - **Server:** HDOCK (`http://hdock.phys.hust.edu.cn/`)
   - **Input:** Receptor: `fcmur_receptor.pdb` (6K8A, Chain A). Ligand: `isolated_fcmu.pdb`.
   - **Success:** Score < -200 (Confirms immune-shielding mechanism).

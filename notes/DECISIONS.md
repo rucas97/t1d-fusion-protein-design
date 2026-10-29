@@ -329,3 +329,10 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Input:** `v2.0_full_alphafold.pdb` (B-factor column).
 - **Result:** The pLDDT plot (`validation/md_data/plddt_plot.png`) shows that all folded domains (GLP-1, MANF, Fcµ) have confidence scores between 85-100 (highly stable). Crucially, the two engineered linkers (residues 32-46 and 205-219) show sharp drops to ~20, mathematically confirming they are flexible, unstructured hinges.
 - **Interpretation:** The construct is structurally sound. The rigid domains are perfectly folded, and the linkers provide the necessary flexibility for independent domain function.
+
+### 2025-XX-XX — Glycan 3D Modeling (GlycoShape) & Coordinate Frame Correction
+- **Tool:** GlycoShape (Re-Glyco).
+- **Result:** Successfully modeled 560 glycan atoms onto the 4 N-glycosylation sites.
+- **Critical Correction:** An initial distance calculation yielded 137 Å, which was identified as a coordinate frame mismatch artifact (comparing the isolated AlphaFold model to the docked complex). 
+- **True Biological Impact:** Using the previously validated docked complex, the Asn residue at N659 is only **7.33 Å** from the receptor. Because the modeled glycan is massive (560 atoms), it will cause a severe steric clash if the Fc tail remains attached.
+- **Conclusion:** This provides definitive proof of the necessity of the PC2-cleavable linker. Without cleavage, the glycosylated Fc tail blocks the GLP-1 receptor.

@@ -123,3 +123,30 @@ This is the comprehensive, chronological checklist of all validations performed 
   - **Servers:** DeepSoluE (`http://lab.malab.cn/~wangchao/softs/DeepSoluE/`), AggreProt (`https://loschmidt.chemi.muni.cz/aggreprot`), ExPASy ProtParam (`https://web.expasy.org/protparam/`).
   - **Input:** v2.0 FASTA.
   - **Success:** Solubility > 0.5, Instability Index < 40, GRAVY negative.
+
+## ⚠️ Reviewer-Specific Missing Items (Added for Completeness)
+
+- [x] **6.1 Simulated Cleavage Products (Active Species)**
+  - **Environment:** Git Bash / Termux.
+  - **Script:** `simulate_cleavage.py` (Finds KR motif and splits sequence).
+  - **Success:** Confirms PC2 cleavage separates the 36-aa GLP-1 arm from the 636-aa Fcµ tail.
+
+- [x] **6.2 Glycan Clash Distance**
+  - **Environment:** Git Bash (Python).
+  - **Script:** `analyze_glycan_clashes.py` (Calculates distance from N-glycosylation sites to receptor).
+  - **Success:** N659 is 7.33 Å (potential clash); others are >18 Å. Proves PC2 cleavage is necessary to remove bulky glycans.
+
+- [ ] **6.3 FcµR Docking (Immune Receptor)**
+  - **Server:** HDOCK (`http://hdock.phys.hust.edu.cn/`)
+  - **Input:** Receptor: `fcmur_receptor.pdb` (6K8A, Chain A). Ligand: `isolated_fcmu.pdb`.
+  - **Success:** Score < -200 (Confirms immune-shielding mechanism).
+  - *(Status: HDOCK job currently running in background).*
+
+- [x] **6.4 Isolated Domain FoldSeek**
+  - **Server:** FoldSeek (`https://search.foldseek.com/search`)
+  - **Input:** `isolated_manf.pdb` and `isolated_fcmu.pdb`.
+  - **Success:** Proves both domains fold natively without the linkers.
+
+## ⚠️ Explicitly Handed Off to Wet-Lab (Priority 4/5)
+- [ ] **Pharmacokinetics (PK) & Biodistribution:** Cannot be modeled computationally. Handed off to `WET_LAB_ROADMAP.md` (Requires mouse IV injection).
+- [ ] **Metabolic Safety (Hypoglycemia):** Cannot be modeled computationally. Requires Glucose Tolerance Tests in animal models.

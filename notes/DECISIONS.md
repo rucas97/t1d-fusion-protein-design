@@ -275,3 +275,8 @@ This becomes the "Methods rationale" section of the manuscript.
 ### 2025-XX-XX — Construct Identity & PC2 Cleavage Simulation
 - **Mutation Verification (R595A):** Re-run with the exact v2.0 sequence. Residue 595 is confirmed to be Alanine (A), verifying the engineered R595A mutation is present.
 - **PC2 Cleavage Products:** Simulated cleavage at the KR motif (position 34). The cleavage releases Fragment 1 (N-term: GLP-1 targeting arm, 36 aa) from Fragment 2 (C-term: Linker + MANF + Fcµ, 636 aa). This confirms that PC2 activation spatially separates the targeting arm from the bulky immune-shielding tail.
+
+### 2025-XX-XX — CRITICAL CORRECTION: Sequence Hallucination Detected (Round 2)
+- **Issue:** Manual sequence entry introduced typos. A programmatic assembly from UniProt components was required.
+- **Correction:** The true v2.0 sequence is 672 amino acids long. It contains the exact `FVQWMQR` motif from human IgM, with the Arginine at position 601 mutated to Alanine (R601A).
+- **Action:** All future sequence analysis will use the programmatically verified string from `verify_construct_v3.py`.

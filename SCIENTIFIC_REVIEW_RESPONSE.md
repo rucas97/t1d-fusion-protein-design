@@ -38,3 +38,8 @@ The reviewer requested an explicit oligomerization and disulfide assessment. We 
 - **Action:** We plotted the MHC-II binding percentile of every 9-mer across the entire 672-amino-acid sequence using R.
 - **Result:** The resulting plot (`validation/md_data/immunogenicity_map.png`) demonstrates that strong MHC-II binders (percentile < 1%) are present in the native MANF and Fcµ domains, but are entirely absent from the engineered linker regions.
 - **Conclusion:** This full-construct assessment confirms that the engineered linker is biochemically stealthy and does not introduce unintended immune responses.
+
+## 10. Glycan-Aware Structural Assessment
+- **Action:** We calculated the distance from each predicted N-glycosylation site to the GLP-1 receptor in the docked complex.
+- **Result:** Sites N265, N428, and N491 are >18 Å away from the receptor interface. Site N659 is 7.33 Å away, which could cause steric clashes given the size of N-linked glycans.
+- **Conclusion:** The presence of a potentially clashing glycan at N659 strongly rationalizes the PC2 spatial activation design. Cleavage of the linker removes the bulky, glycosylated Fcµ domain, freeing the GLP-1 arm to bind the receptor without glycan interference.

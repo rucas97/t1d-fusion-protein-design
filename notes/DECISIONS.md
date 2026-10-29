@@ -295,3 +295,12 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Tool:** R (ggplot2) using raw IEDB MHC-II output.
 - **Result:** The generated plot (`validation/md_data/immunogenicity_map.png`) maps strong binders (red dots, percentile < 1%) across the entire 672-amino-acid sequence.
 - **Interpretation:** Strong MHC-II binders are distributed throughout the native MANF and Fcµ domains. Crucially, the engineered linkers (delineated by blue dashed lines) are completely devoid of strong binders. This visually confirms that the novel linker does not introduce new immunogenic epitopes into the full construct.
+
+### 2025-XX-XX — Reviewer Request: Glycan-Aware Structural Assessment
+- **Tool:** Custom Python distance calculation on the HDOCK docked complex.
+- **Result:** Minimum distances from the 4 N-glycosylation sites to the GLP-1 receptor:
+  - N265: 43.50 Å (No clash)
+  - N428: 19.39 Å (No clash)
+  - N491: 18.34 Å (No clash)
+  - N659: 7.33 Å (Potential steric clash)
+- **Interpretation:** Three of the four glycan sites are far from the interface. The site at N659 is close enough that its sugar chain could cause steric hindrance if the drug remains intact. This computationally supports the necessity of the PC2 cleavage mechanism: cleaving the linker releases the bulky, glycosylated Fcµ tail from the GLP-1 targeting arm, allowing clean receptor binding.

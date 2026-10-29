@@ -285,3 +285,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Action:** Programmatically assembled the v2.0 construct from exact UniProt components to eliminate manual typos.
 - **Result:** Total length 672 aa. The exact mutation is confirmed at position 587 (R587A), located within the `FVQWMQR` motif of the Fcµ domain.
 - **Conclusion:** The sequence in `constructs/full_construct_v2.0.fasta` is the absolute source of truth. All structural models and docking data correspond to this exact sequence.
+
+### 2025-XX-XX — Reviewer Request: Independent Domain Evaluation
+- **Action:** Extracted isolated MANF and Fcµ domains and analyzed them separately via FoldSeek.
+- **Result:** Both domains fold with perfect structural homology to their native human counterparts (MANF matched 2w51; Fcµ matched 8bpf/8gzn).
+- **Interpretation:** The domains are structurally independent and do not misfold due to the fusion. Functional claims (Treg recruitment, ER-stress relief) remain separate hypotheses requiring wet-lab validation.

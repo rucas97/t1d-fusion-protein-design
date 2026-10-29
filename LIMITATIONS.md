@@ -1,21 +1,17 @@
 # Computational Limitations
 
 ## 1. AlphaFold Model Variance
-- **Finding:** Comparative alignment of AlphaFold models yielded a TM-score of 0.514 and RMSD of 6.81 Å.
-- **Impact:** The relative orientation of the domains varies due to flexible linkers. Docking results represent binding to one specific plausible conformation.
+- **Finding:** TM-align of Model 0 vs Model 1 yielded a TM-score of 0.514.
+- **Impact:** The relative orientation of domains varies due to flexible linkers. Docking represents binding to one specific conformation.
 
-## 2. Off-Target Docking
-- **Finding:** The isolated GLP-1 peptide scored favorably against the Glucagon receptor (-285) due to shape homology.
-- **Impact:** Rigid docking is blind to electrostatics. A wet-lab cAMP assay is required to definitively prove lack of cross-reactivity.
+## 2. Pharmacokinetics & Biodistribution
+- **Finding:** HDOCK scores are structural predictions, not measures of half-life.
+- **Impact:** Actual PK and biodistribution require animal models.
 
-## 3. In Silico vs. In Vivo
-- **Finding:** All data is generated via predictive algorithms.
-- **Impact:** Computational predictions (docking scores, MD, immunogenicity) are not a substitute for experimental reality.
+## 3. Protease Prediction Outages
+- **Finding:** DeepCleave, PROSPER, and PiTou servers were offline.
+- **Impact:** We relied on ProP and FindFur (HMMER3). While FindFur returned 0 hits, a wet-lab cleavage assay is required.
 
-## 7. Critical Review: Fcµ Oligomerization
-- **Finding:** The native IgM heavy chain forms pentamers/hexamers. We modeled the Fcµ domain as a monomer.
-- **Impact:** The monomeric model does not account for avidity effects, receptor crosslinking, or steric clashes that would occur in a multimeric assembly. This is a major limitation of the current structural and docking predictions.
-
-## 8. Critical Review: FcRn Recycling
-- **Finding:** FcRn recycling is canonical for IgG, not IgM. 
-- **Impact:** The predicted FcRn binding (-269.65) may not translate to an extended half-life in vivo for an IgM-derived construct.
+## 4. MD Simulation Length
+- **Finding:** The MD simulation was 10 ns.
+- **Impact:** This is a short timescale. It confirms local stability but does not establish long-term thermodynamic equilibrium.

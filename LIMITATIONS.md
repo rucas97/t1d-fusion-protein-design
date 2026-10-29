@@ -15,3 +15,7 @@
 ## 4. MD Simulation Length
 - **Finding:** The MD simulation was 10 ns.
 - **Impact:** This is a short timescale. It confirms local stability but does not establish long-term thermodynamic equilibrium.
+
+## 5. B-Cell Immunogenicity of the Linker
+- **Finding:** ElliPro analysis identified the `GGGGS` linkers as high-scoring linear B-cell epitopes (Score 0.889 and 0.587).
+- **Impact:** Repeated `GGGGS` motifs are highly flexible and exposed, which makes them prone to generating Anti-Drug Antibodies (ADAs). This is a known limitation of GS-linkers in biologic drugs. Future iterations (v3.0) should replace the `GGGGS` linker with a less immunogenic alternative (e.g., XTEN or PAS linkers) if ADA formation becomes an issue in vivo.

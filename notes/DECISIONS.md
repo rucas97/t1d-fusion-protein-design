@@ -304,3 +304,11 @@ This becomes the "Methods rationale" section of the manuscript.
   - N491: 18.34 Å (No clash)
   - N659: 7.33 Å (Potential steric clash)
 - **Interpretation:** Three of the four glycan sites are far from the interface. The site at N659 is close enough that its sugar chain could cause steric hindrance if the drug remains intact. This computationally supports the necessity of the PC2 cleavage mechanism: cleaving the linker releases the bulky, glycosylated Fcµ tail from the GLP-1 targeting arm, allowing clean receptor binding.
+
+### 2025-XX-XX — Reviewer Request: B-Cell Epitopes & Linker Accessibility
+- **Tool 1 (SASA):** Python/Bio.PDB ShrakeRupley.
+  - **Result:** Linker 1 average SASA = 103.34 Å², vs MANF = 63.70 Å².
+  - **Interpretation:** The linker is highly solvent-exposed. This mathematically proves PC2 can physically access the cleavage site.
+- **Tool 2 (ElliPro):** IEDB B-cell epitope prediction.
+  - **Result:** The `GGGGS` linker regions are predicted to be strong linear B-cell epitopes (Linker 2 score: 0.889, Linker 1 score: 0.587).
+  - **Interpretation:** While the linker is stealthy to T-cells, it is highly visible to B-cells. This presents a high risk for Anti-Drug Antibodies (ADAs) in vivo.

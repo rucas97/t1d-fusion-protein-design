@@ -20,3 +20,7 @@ Thumbs.db
 *.tpr
 biobb*
 top.pdb
+trajectory.pdb
+*.tar.gz
+*.cif
+*.pdb.gz

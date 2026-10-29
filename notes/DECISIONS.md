@@ -344,3 +344,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Result:** Successfully modeled standard human complex glycans (560 atoms) onto the 4 N-glycosylation sites.
 - **Biological Proof:** The Asn residue at N659 is located only **7.33 �** from the GLP-1 receptor in the docked complex. Because it carries a massive 560-atom sugar tree, it will cause a severe steric clash if the Fc tail remains attached.
 - **Conclusion:** This definitively proves that the PC2-cleavable linker is not just an optimization; it is a strict requirement. Without cleavage, the glycosylated Fc tail physically blocks the GLP-1 receptor.
+
+### 2025-XX-XX — HDOCK Server Outage
+- **Issue:** During the final validation runs (Alternative Conformation Model 1 and GIPR Off-Target), the HDOCK server (hdock.phys.hust.edu.cn) went offline, returning `ERR_CONNECTION_REFUSED`.
+- **Impact:** Unable to retrieve the final scores for these two supplementary jobs. The primary target (GLP-1R), primary off-target (Glucagon), half-life (FcRn), and immune (FcµR) docking scores were successfully completed and logged prior to the outage.
+- **Action:** Documented as a server failure. Will re-attempt if the server comes back online. If not, the alternative conformation and GIPR cross-reactivity remain unvalidated gaps.

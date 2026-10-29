@@ -19,3 +19,7 @@
 ## 5. B-Cell Immunogenicity of the Linker
 - **Finding:** ElliPro analysis identified the `GGGGS` linkers as high-scoring linear B-cell epitopes (Score 0.889 and 0.587).
 - **Impact:** Repeated `GGGGS` motifs are highly flexible and exposed, which makes them prone to generating Anti-Drug Antibodies (ADAs). This is a known limitation of GS-linkers in biologic drugs. Future iterations (v3.0) should replace the `GGGGS` linker with a less immunogenic alternative (e.g., XTEN or PAS linkers) if ADA formation becomes an issue in vivo.
+
+## 6. HDOCK Server Outage (Alternative Conformation & GIPR)
+- **Finding:** The HDOCK server crashed during the final two docking runs.
+- **Impact:** The docking of the full drug to the GIP Receptor (safety) and the docking of AlphaFold Model 1 to GLP-1R (conformational robustness) could not be completed. While primary docking was successful, these specific supplementary checks are missing.

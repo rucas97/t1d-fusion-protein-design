@@ -265,3 +265,9 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Result:** The highest residue number in the AlphaFold PDB file is 671. 
 - **Sequence Calculation:** GLP-1 (31) + Linker 1 (15) + MANF (158) + Linker 2 (15) + Fcµ (452) = 671.
 - **Interpretation:** The AlphaFold model has exact 1:1 correspondence with the designed sequence. No residues are missing. The previous approximation of 680 aa is corrected to 671 aa.
+
+### 2025-XX-XX — Simulated PC2 Cleavage Products
+- **Action:** Simulated cleavage at the KR motif (position 34).
+- **Fragment 1 (N-term):** `HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRGGSGKR` (GLP-1 targeting arm).
+- **Fragment 2 (C-term):** `GGGGSGGGGSLRPGDCEVC...` (Linker + MANF + Fcµ).
+- **Interpretation:** Cleavage releases the GLP-1 arm, potentially allowing it to engage the receptor more freely without steric hindrance from the massive Fcµ tail. This addresses the reviewer's question about the "active molecular species."

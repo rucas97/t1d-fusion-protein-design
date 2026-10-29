@@ -280,3 +280,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Issue:** Manual sequence entry introduced typos. A programmatic assembly from UniProt components was required.
 - **Correction:** The true v2.0 sequence is 672 amino acids long. It contains the exact `FVQWMQR` motif from human IgM, with the Arginine at position 601 mutated to Alanine (R601A).
 - **Action:** All future sequence analysis will use the programmatically verified string from `verify_construct_v3.py`.
+
+### 2025-XX-XX — FINAL SEQUENCE VERIFICATION (R587A)
+- **Action:** Programmatically assembled the v2.0 construct from exact UniProt components to eliminate manual typos.
+- **Result:** Total length 672 aa. The exact mutation is confirmed at position 587 (R587A), located within the `FVQWMQR` motif of the Fcµ domain.
+- **Conclusion:** The sequence in `constructs/full_construct_v2.0.fasta` is the absolute source of truth. All structural models and docking data correspond to this exact sequence.

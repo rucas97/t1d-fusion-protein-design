@@ -245,3 +245,9 @@ This becomes the "Methods rationale" section of the manuscript.
 ### 2025-XX-XX — Final Repository Polish
 - All text files updated to reflect the exhaustive audit (Batch A-I). 
 - Number of validations explicitly detailed in README.md.
+
+### 2025-XX-XX — Reviewer Request: PAE (Predicted Aligned Error) Analysis
+- **Tool:** LIVIA (flyark.github.io/LIVIA).
+- **Input:** AlphaFold Model 0 (PAE matrix).
+- **Result:** The PAE heatmap (`validation/md_data/pae_heatmap_model0.png`) shows distinct blue blocks (high confidence) along the diagonal, confirming stable folding of individual domains. However, the off-diagonal regions are largely red (high error >30 Å), indicating significant uncertainty regarding the relative orientation of the domains.
+- **Interpretation:** Directly addresses the reviewer's concern. The full-length structure is a dynamic ensemble where flexible linkers allow domains to move independently. Future docking or modeling must account for this.

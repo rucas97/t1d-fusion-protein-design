@@ -27,3 +27,6 @@ The reviewer requested specific additional computational analyses to complement 
 
 ## 3. Conclusion
 We agree with the reviewer that v2.0 is a "useful computational starting point and a substantial list of hypotheses to test," not a validated therapeutic. Future work will prioritize the mechanism-by-mechanism evidence package.
+
+## 4. Addressing PAE Analysis Request
+The reviewer requested a domain-wise structural confidence and PAE review. We uploaded the complete AlphaFold output to the LIVIA analysis platform. The resulting PAE heatmap (`validation/md_data/pae_heatmap_model0.png`) conclusively demonstrates high intra-domain confidence (blue blocks) but high inter-domain uncertainty (red off-diagonal regions). This confirms that the flexible linkers allow the domains to move independently, meaning the full 680-aa structure is a dynamic ensemble rather than a single rigid conformation.

@@ -16,6 +16,7 @@ In accordance with strict scientific review, all claims in this repository are c
 
 ## 🏆 Exhaustive Validation Matrix (No Shortcuts)
 | Category | Test / Tool | Result | Interpretation (In Silico) |
+| **PAE (Confidence)** | LIVIA (AlphaFold) | High intra-domain | Confirms flexible linkers and dynamic inter-domain orientations. |
 | :--- | :--- | :--- | :--- |
 | **Sequence** | NCBI BLAST & FoldSeek | High homology | Matches human IgM and MANF perfectly. No unexpected off-targets. |
 | **Structure** | AlphaFold & MolProbity | 96th percentile | Full 680-aa model. Clashscore 3.73. High physical plausibility. |

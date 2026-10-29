@@ -11,3 +11,11 @@
 ## 3. In Silico vs. In Vivo
 - **Finding:** All data is generated via predictive algorithms.
 - **Impact:** Computational predictions (docking scores, MD, immunogenicity) are not a substitute for experimental reality.
+
+## 7. Critical Review: Fcµ Oligomerization
+- **Finding:** The native IgM heavy chain forms pentamers/hexamers. We modeled the Fcµ domain as a monomer.
+- **Impact:** The monomeric model does not account for avidity effects, receptor crosslinking, or steric clashes that would occur in a multimeric assembly. This is a major limitation of the current structural and docking predictions.
+
+## 8. Critical Review: FcRn Recycling
+- **Finding:** FcRn recycling is canonical for IgG, not IgM. 
+- **Impact:** The predicted FcRn binding (-269.65) may not translate to an extended half-life in vivo for an IgM-derived construct.

@@ -1,9 +1,12 @@
 # Computational Design of a Tri-Functional Beta-Cell-Targeted Fusion Protein for Type 1 Diabetes
 
-## 📖 Project Overview
-Type 1 Diabetes (T1D) requires a dual-pronged approach: halting the autoimmune destruction of beta cells and regenerating/protecting the remaining beta-cell mass. 
+## ⚠️ Evidence Level Classification
+In accordance with strict scientific review, all claims in this repository are classified as follows:
+1. **Predicted:** Computational output suggests a possible property (e.g., docking scores, AlphaFold models).
+2. **Experimentally Demonstrated:** A defined assay supports the property under specified conditions (0 claims in this repository).
+3. **Therapeutically Validated:** Evidence supports the intended effect in a disease model or clinical setting (0 claims in this repository).
 
-This repository contains the complete *in silico* design, structural modeling, and exhaustive computational validation of **v2.0**, a novel 680-amino-acid tri-functional fusion protein designed to act as a "smart" first responder for T1D. **Note:** These analyses support computational plausibility; they do not establish clinical safety or experimental efficacy.
+**Current Status:** All data herein represents **Level 1 (Predicted)** evidence only. v2.0 is a computational hypothesis, not a validated therapeutic.
 
 ## 🧬 The v2.0 Construct Architecture
 1. **Targeting & Function (Human GLP-1 7-37):** Binds GLP-1R on beta cells to stimulate insulin secretion.

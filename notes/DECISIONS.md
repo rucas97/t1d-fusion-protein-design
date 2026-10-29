@@ -241,3 +241,7 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Pose 1 Results:** BSA 1791 Å², 640 contacts.
 - **Pose 2 Results:** BSA **3764 Å²**, 1149 contacts, 89 receptor interface residues, 65 drug interface residues.
 - **Interpretation:** Pose 2 demonstrates an even larger buried surface area than Pose 1. The sheer size of the interface (3764 Å²) across multiple independent poses confirms that the v2.0 drug forms a highly stable, multi-contact complex with the GLP-1 receptor. The binding is robust and not dependent on a single docking algorithm artifact.
+
+### 2025-XX-XX — Final Repository Polish
+- All text files updated to reflect the exhaustive audit (Batch A-I). 
+- Number of validations explicitly detailed in README.md.

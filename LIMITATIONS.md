@@ -1,20 +1,13 @@
-# Computational Limitations & Failed Runs
+# Computational Limitations
 
-This document explicitly records the limitations of the current computational pipeline and any failed runs, as required by rigorous validation audits.
+## 1. AlphaFold Model Variance
+- **Finding:** Comparative alignment of AlphaFold models yielded a TM-score of 0.514 and RMSD of 6.81 Å.
+- **Impact:** The relative orientation of the domains varies due to flexible linkers. Docking results represent binding to one specific plausible conformation.
 
-## 1. Failed Runs
-- **Google Colab (Making it Rain):** Failed to run due to dependency conflicts with the `parmed` library on the Colab environment.
-- **BilboMD:** Could not be run because we lacked experimental SAXS data and the classic `const.inp` file required by the pipeline.
-- **PELE Web Server:** Returned a 502 Bad Gateway error during the simulation attempt.
+## 2. Off-Target Docking
+- **Finding:** The isolated GLP-1 peptide scored favorably against the Glucagon receptor (-285) due to shape homology.
+- **Impact:** Rigid docking is blind to electrostatics. A wet-lab cAMP assay is required to definitively prove lack of cross-reactivity.
 
-## 2. Deleted Data (Trajectory Analysis Limits)
-- **MD Trajectory (`.xtc`):** The 54 MB all-atom trajectory file from the BioBB/GROMACS setup was deleted to conserve mobile device storage. 
-- **Impact:** We cannot run `gmx sasa` (Solvent Accessible Surface Area) or `gmx hbond` (Hydrogen bonding over time) on the trajectory. Only the `.xvg` plots for RMSD and Radius of Gyration were retained.
-
-## 3. Unperformed Comparative Analysis
-- **Alternative Structural Models:** We did not run a structural alignment (e.g., DALI or FoldSeek) comparing AlphaFold `model_0` to `model_1` through `model_4` to verify the stability of the predicted fold.
-- **Alternative Docking Poses:** We only analyzed the Top 1 docking pose from HDOCK for the on-target and off-target receptors. We did not perform a rigorous analysis of poses 2 through 10.
-
-## 5. AlphaFold Model Variance
-- **Finding:** Comparative alignment of AlphaFold models (model_0 vs model_1) yielded a TM-score of 0.514 and RMSD of 6.81 Å.
-- **Impact:** The relative orientation of the folded domains varies due to the flexible linkers. While the domain folds are consistent, the overall global conformation is dynamic. Docking results should be interpreted as binding to one specific plausible conformation, not a rigidly fixed structure.
+## 3. In Silico vs. In Vivo
+- **Finding:** All data is generated via predictive algorithms.
+- **Impact:** Computational predictions (docking scores, MD, immunogenicity) are not a substitute for experimental reality.

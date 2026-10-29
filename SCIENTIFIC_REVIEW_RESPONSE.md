@@ -30,3 +30,6 @@ We agree with the reviewer that v2.0 is a "useful computational starting point a
 
 ## 4. Addressing PAE Analysis Request
 The reviewer requested a domain-wise structural confidence and PAE review. We uploaded the complete AlphaFold output to the LIVIA analysis platform. The resulting PAE heatmap (`validation/md_data/pae_heatmap_model0.png`) conclusively demonstrates high intra-domain confidence (blue blocks) but high inter-domain uncertainty (red off-diagonal regions). This confirms that the flexible linkers allow the domains to move independently, meaning the full 680-aa structure is a dynamic ensemble rather than a single rigid conformation.
+
+## 5. Addressing Disulfide & Oligomerization Assessment
+The reviewer requested an explicit oligomerization and disulfide assessment. We utilized the DisLocate server. The analysis predicted internal disulfide bonds exclusively within the Fcµ domain (CYS522-CYS570 and CYS632-CYS671), with no bonds predicted in the engineered linker or GLP-1 domains. Because the construct excludes the native IgM tailpiece (which drives pentamerization), the sequence-based prediction suggests the construct will remain a monomer rather than forming the massive multimers typical of native IgM. Experimental validation of the oligomeric state remains required.

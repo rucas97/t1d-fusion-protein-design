@@ -251,3 +251,11 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Input:** AlphaFold Model 0 (PAE matrix).
 - **Result:** The PAE heatmap (`validation/md_data/pae_heatmap_model0.png`) shows distinct blue blocks (high confidence) along the diagonal, confirming stable folding of individual domains. However, the off-diagonal regions are largely red (high error >30 Å), indicating significant uncertainty regarding the relative orientation of the domains.
 - **Interpretation:** Directly addresses the reviewer's concern. The full-length structure is a dynamic ensemble where flexible linkers allow domains to move independently. Future docking or modeling must account for this.
+
+### 2025-XX-XX — Reviewer Request: Disulfide & Oligomerization Assessment
+- **Tool:** DisLocate (Animal taxonomy).
+- **Result:** 
+  - **Disulfide Bonds:** Predicted two internal disulfide bonds within the Fcµ domain (CYS522-CYS570 and CYS632-CYS671). No disulfide bonds were predicted in the GLP-1 domain or the engineered PC2 linker. 
+  - **Free Cysteines:** Several free cysteines were predicted in the MANF domain, consistent with its native fold.
+  - **Subcellular Location:** Predicted "Nucleus" (Expected artifact due to the absence of a signal peptide in the mature sequence).
+- **Interpretation:** The Fcµ domain retains its native internal disulfide connectivity, crucial for its stability. The absence of disulfide bonds in the linker confirms it will not crosslink nonspecifically. Because the construct lacks the IgM tailpiece, it is predicted to remain monomeric, avoiding the native pentameric oligomerization of IgM.

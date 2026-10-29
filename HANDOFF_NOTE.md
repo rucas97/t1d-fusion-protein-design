@@ -1,3 +1,9 @@
+> ⚠️ **RETRACTIONS (added after audit, see notes/DECISIONS.md for details):**
+> - Item 6: Pose 2 BSA of 3764 Å² is invalid — Pose 2 was a GCGR docking against a T4L-contaminated receptor, not a GLP-1R pose.
+> - Any 7.33 Å glycan–receptor distance figure is retracted. Verified value: 11.88 Å (NAG1 → ILE146) in `hdock_full_complex.pdb` (Pose 1).
+> - The 'GIPR Off-target Docking — pending' line is incorrect. GIPR was never submitted; 7DTY was downloaded but not docked.
+> - The 'provides inherent safety' conclusion is retracted as unsupported.
+
 # AI Session Handoff Note
 
 ## Project Context

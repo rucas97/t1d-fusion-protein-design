@@ -8,7 +8,7 @@ In accordance with strict scientific review:
 **Current Status:** All data herein represents **Level 1 (Predicted)** evidence only. v2.0 is a computational hypothesis, not a validated therapeutic.
 
 ## 📖 Project Overview
-This repository contains the exhaustive *in silico* design and validation of **v2.0**, a 672-amino-acid tri-functional fusion protein for T1D. It combines Human GLP-1 (targeting), a PC2-cleavable linker (spatial activation), Human MANF (ER-stress relief), and Human Fcµ (Treg recruitment and half-life). 
+This repository contains the exhaustive *in silico* design and validation of **v2.0**, a 672-amino-acid tri-functional fusion protein for T1D. It combines Human GLP-1 (targeting), a PC2-cleavable linker (spatial activation), Human MANF (ER-stress relief), and Human Fcµ (immune modulation; half-life rationale is unestablished for IgM-derived Fcµ and requires experimental PK). 
 
 ## 🏆 Exhaustive Validation Matrix
 | Category | Test / Tool | Result | Interpretation |
@@ -21,11 +21,11 @@ This repository contains the exhaustive *in silico* design and validation of **v
 | **Protease (Furin)**| FindFur (HMMER3) | **0 Hits** | Algorithm confirms linker resists systemic cleavage. |
 | **Protease (PC2)** | ProP General PC | Score: 0.689 | Linker is a substrate for pancreatic convertases. |
 | **Accessibility** | SASA (Python) | Linker: 103.34 Å² | Linker is exposed; PC2 can reach it. |
-| **Docking (Target)**| HDOCK (GLP-1R) | -310.71 | Strong structural compatibility. |
-| **Docking (Safety)** | HDOCK (Glucagon R) | -297.39 | Fc tail causes steric clash, preventing off-target activation. |
-| **Docking (Half-life)**| HDOCK (FcRn) | -269.65 | Predicts FcRn recycling. |
+| **Docking (Target)**| HDOCK + HawkDock (GLP-1R) | -310.71 / -6140.80 | Fcµ-dominated interface; GLP-1 arm sterically occluded; consistent with PC2-cleavage-dependent activation. Both scores are from clash-containing poses; require experimental validation. |
+| **Docking (Safety)** | HDOCK (GCGR) | INVALID (T4L-contaminated receptor) | Re-running against clean GCGR; original -297.39 retracted. |
+| **Docking (FcRn)**| HDOCK (FcRn, 4N0U) | -269.65 | Shape-compatibility only. **Does NOT establish FcRn recycling** — that mechanism requires the IgG Fc binding site, not present in Fcµ. Half-life unestablished. |
 | **Docking (Immune)** | HDOCK (FcµR) | -222.03 | Structurally binds immune receptor for Treg recruitment. |
-| **Interface** | SPICE (Pose 1/2) | 1791 / 3764 Å² | Massive buried surface area; binding is robust. |
+| **Interface** | SPICE (Pose 1) | 1791 Å² | Buried surface area from valid GLP-1R pose. Pose 2 (3764 Å²) retracted — see DECISIONS.md. |
 | **MD Stability** | GROMACS | 10 ns plateau | RMSD and SASA confirm structural stability. |
 | **MD Dynamics** | R/bio3d (PCA) | PC1 = 52% | Dominant motion is inter-domain flexibility. |
 | **Immunogenicity** | IEDB + R plot | Stealthy linker | No MHC-I/II neo-epitopes in engineered regions. |

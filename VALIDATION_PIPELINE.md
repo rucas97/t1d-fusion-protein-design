@@ -71,7 +71,7 @@ This is the comprehensive, chronological checklist of all validations performed 
   - **Server:** SPICE (`https://spice.cs.ucr.edu/`)
   - **Input:** HDOCK Complex.
   - **Settings:** Group A = Chain R, Group B = Chain A, Cutoff 5.0 Å.
-  - **Success:** Buried Surface Area > 1000 Å² (Result: 1791 Å² for Pose 1, 3764 Å² for Pose 2).
+  - **Success:** Buried Surface Area > 1000 Å² (Result: 1791 Å² for Pose 1). Pose 2 (3764 Å²) retracted — identified as GCGR docking, not GLP-1R (see DECISIONS.md).
 - [x] **3.5 Alternative Conformation Docking**
   - **Server:** HDOCK.
   - **Input:** Ligand: `v2.0_alphafold_model1.pdb`. Receptor: `glp1r_receptor.pdb`.
@@ -134,7 +134,7 @@ This is the comprehensive, chronological checklist of all validations performed 
 - [x] **6.2 Glycan Clash Distance**
   - **Environment:** Git Bash (Python).
   - **Script:** `analyze_glycan_clashes.py` (Calculates distance from N-glycosylation sites to receptor).
-  - **Success:** N659 is 7.33 Å (potential clash); others are >18 Å. Proves PC2 cleavage is necessary to remove bulky glycans.
+  - **Success:** N659 glycan is 11.88 Å from GLP-1R ECD (nearest contact ILE146) in the top docked pose; others >18 Å. Consistent with, but does not prove, the requirement for PC2 cleavage.
 
 - [x] **6.3 FcµR Docking (Immune Receptor)**
   - **Server:** HDOCK (`http://hdock.phys.hust.edu.cn/`)

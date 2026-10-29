@@ -25,7 +25,7 @@ The current repository contains **Level 1 (Predicted)** evidence only. Below is 
 
 ## 5. Immunogenicity & Glycosylation
 - **Action:** Plotted whole-construct MHC-II binding (R/ggplot2) and calculated steric distances of N-glycans to the GLP-1 receptor.
-- **Result:** The engineered linkers are entirely devoid of strong MHC-II binders. Three of four glycan sites are >18 Å from the receptor; site N659 is 7.33 Å away, presenting a potential clash. This supports the necessity of PC2 cleavage to remove the bulky Fc tail.
+- **Result:** The engineered linkers are entirely devoid of strong MHC-II binders. Three of four glycan sites are >18 Å from the receptor; site N659 is 11.88 Å from the GLP-1R ECD in the top docked pose (nearest contact ILE146), placing the glycan proximal to the peptide-binding face. This is consistent with, but does not by itself demonstrate, the requirement for PC2 cleavage to remove the bulky Fc tail.
 
 ## 6. Disulfide & Oligomerization
 - **Action:** Analyzed the sequence via DisLocate.

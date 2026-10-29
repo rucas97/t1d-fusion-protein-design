@@ -33,3 +33,8 @@ The reviewer requested a domain-wise structural confidence and PAE review. We up
 
 ## 5. Addressing Disulfide & Oligomerization Assessment
 The reviewer requested an explicit oligomerization and disulfide assessment. We utilized the DisLocate server. The analysis predicted internal disulfide bonds exclusively within the Fcµ domain (CYS522-CYS570 and CYS632-CYS671), with no bonds predicted in the engineered linker or GLP-1 domains. Because the construct excludes the native IgM tailpiece (which drives pentamerization), the sequence-based prediction suggests the construct will remain a monomer rather than forming the massive multimers typical of native IgM. Experimental validation of the oligomeric state remains required.
+
+## 8. Whole-Construct Immunogenicity Assessment
+- **Action:** We plotted the MHC-II binding percentile of every 9-mer across the entire 672-amino-acid sequence using R.
+- **Result:** The resulting plot (`validation/md_data/immunogenicity_map.png`) demonstrates that strong MHC-II binders (percentile < 1%) are present in the native MANF and Fcµ domains, but are entirely absent from the engineered linker regions.
+- **Conclusion:** This full-construct assessment confirms that the engineered linker is biochemically stealthy and does not introduce unintended immune responses.

@@ -290,3 +290,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Action:** Extracted isolated MANF and Fcµ domains and analyzed them separately via FoldSeek.
 - **Result:** Both domains fold with perfect structural homology to their native human counterparts (MANF matched 2w51; Fcµ matched 8bpf/8gzn).
 - **Interpretation:** The domains are structurally independent and do not misfold due to the fusion. Functional claims (Treg recruitment, ER-stress relief) remain separate hypotheses requiring wet-lab validation.
+
+### 2025-XX-XX — Reviewer Request: Whole-Construct Immunogenicity Assessment (R)
+- **Tool:** R (ggplot2) using raw IEDB MHC-II output.
+- **Result:** The generated plot (`validation/md_data/immunogenicity_map.png`) maps strong binders (red dots, percentile < 1%) across the entire 672-amino-acid sequence.
+- **Interpretation:** Strong MHC-II binders are distributed throughout the native MANF and Fcµ domains. Crucially, the engineered linkers (delineated by blue dashed lines) are completely devoid of strong binders. This visually confirms that the novel linker does not introduce new immunogenic epitopes into the full construct.

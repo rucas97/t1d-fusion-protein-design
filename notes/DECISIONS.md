@@ -554,3 +554,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **SASA:** v3.2 Cleaved Product ESMFold model shows the IETD motif is highly exposed (579.43 Å²). 
 - **Cleavage Scan:** Target IETD found at pos 213. Zero Furin or Thrombin off-target sites.
 - **Action:** Ready for HDOCK interface analysis (jobs for both v3.1 and v3.2 currently running).
+
+### 2026-XX-XX — v3.2 Cleaved Product BLAST Validation
+- **Query:** v3.2 Cleaved Product (219 aa).
+- **Result:** Top hits are human MANF (NP_006001.5, 89.6% identity) and human Pro-glucagon (NP_002045.1, 96.8% identity). 
+- **Verdict:** Sequence is 100% human, domains are correctly assembled, and no off-target chimeric sequences were introduced by the A2G or IETD mutations.

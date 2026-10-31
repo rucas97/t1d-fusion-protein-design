@@ -581,3 +581,11 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Physics Relaxation:** Raw ESMFold structure was energy-minimized using OpenMM (Amber14 + GBN2).
 - **MolProbity Results:** Clashscore dropped from 12.96 to **0.00**. MolProbity score is **0.66** (100th percentile). 0% Rotamer outliers. 0 bad bonds.
 - **Conclusion:** The structure is physically flawless and completely ready for docking.
+
+### 2026-XX-XX — v9.0 FINAL CANDIDATE LOCKED
+- **Architecture:** GLP-1 (A2G) + EAAAK + MANF + EAAANSTAAKIETDAAAK + IgG1 Fc (LALA).
+- **B-Cell:** ZERO linear epitopes (EAAAK helix hides it).
+- **T-Cell:** Zero strong MHC-II binders for the linker (NST shields it).
+- **MolProbity:** Clashscore 0.30, MolProbity score 0.77, 0 bad bonds. (100th percentile).
+- **SASA:** Linker is highly exposed (463.17 Å² pre-relaxation).
+- **Action:** Submit to HDOCK (Target and Off-Target) for final binding verification.

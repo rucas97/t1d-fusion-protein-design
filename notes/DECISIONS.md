@@ -624,3 +624,8 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Result:** All 13 measurements across Linker 2 (residues 195-211) show distances of 6.06 Å to 6.28 Å, which is the exact definition of a rigid alpha-helix.
 - **Significance:** Proves the EAAAK and NST design successfully eliminated the floppy, unstructured loop, ensuring B-cell evasion.
 - **Allergenicity (AllerTOP):** Probable NON-ALLERGEN.
+
+### 2026-XX-XX — GLP-1 Arm Structural Integrity (US-align)
+- **Method:** US-align comparison of isolated v9.0 GLP-1 arm vs native 5VAI GLP-1 peptide.
+- **Result:** TM-score 0.696, RMSD 1.33 Å over 28 aligned residues. 
+- **Significance:** Confirms the A2G mutation (for DPP-4 resistance) did not disrupt the native alpha-helical structure required for receptor binding.

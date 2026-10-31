@@ -549,3 +549,8 @@ This becomes the "Methods rationale" section of the manuscript.
 ### 2026-XX-XX — Phyre2 Validation of v3.1 Architecture
 - Phyre2 modeled the folded domains of v3.1 (GLP-1, MANF, Fc) at 99.9% confidence.
 - It naturally omitted the Granzyme B linker (expected for flexible regions), confirming the folded domains are structurally sound.
+
+### 2026-XX-XX — v3.2 Local Validation Complete
+- **SASA:** v3.2 Cleaved Product ESMFold model shows the IETD motif is highly exposed (579.43 Å²). 
+- **Cleavage Scan:** Target IETD found at pos 213. Zero Furin or Thrombin off-target sites.
+- **Action:** Ready for HDOCK interface analysis (jobs for both v3.1 and v3.2 currently running).

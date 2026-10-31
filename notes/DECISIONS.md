@@ -589,3 +589,12 @@ This becomes the "Methods rationale" section of the manuscript.
 - **MolProbity:** Clashscore 0.30, MolProbity score 0.77, 0 bad bonds. (100th percentile).
 - **SASA:** Linker is highly exposed (463.17 Å² pre-relaxation).
 - **Action:** Submit to HDOCK (Target and Off-Target) for final binding verification.
+
+### 2026-XX-XX — v9.0 Pre-Docking Validation Suite COMPLETE
+- **Structure:** MolProbity Clashscore 0.30, 0 bad bonds, 0 rotamer outliers.
+- **SASA:** Granzyme B site (IETD) exposed at 463.17 A^2.
+- **BLAST:** 100% human (MANF, Pro-glucagon, IgG1).
+- **Glycosylation:** NetNGlyc confirms the engineered NST site in Linker 2.
+- **Disulfides:** DisLocate confirms 0 cysteines in the linker (no rogue crosslinks).
+- **Developability:** ProtParam Instability Index 24.11 (Stable), GRAVY -0.503 (Highly Soluble).
+- **Status:** Submitting to HDOCK Target (GLP-1R) and Off-Target (GCGR) for final spatial verification.

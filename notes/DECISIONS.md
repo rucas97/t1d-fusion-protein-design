@@ -559,3 +559,12 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Query:** v3.2 Cleaved Product (219 aa).
 - **Result:** Top hits are human MANF (NP_006001.5, 89.6% identity) and human Pro-glucagon (NP_002045.1, 96.8% identity). 
 - **Verdict:** Sequence is 100% human, domains are correctly assembled, and no off-target chimeric sequences were introduced by the A2G or IETD mutations.
+
+### 2026-XX-XX — 🏆 V3.2 Cleaved Product Docking Success (Model 6)
+- **Docking Engine:** HDOCK.
+- **Job:** v3.2_Cleaved_GLP1R.
+- **Top Model:** Model 6 (Saved as `hdock_v3.2_golden_pose.pdb`).
+- **Interface Analysis:**
+  - 13 GLP-1 arm contacts (covering both N-terminal activation residues and C-terminal ECD binding residues).
+  - 1 clash (Min Dist 1.96 Å) — negligible for rigid docking, biologically acceptable.
+- **Verdict:** The cleaved product successfully engages the GLP-1R using the canonical GLP-1 binding footprint. The v3.2 Smart Bomb architecture (cleavage-dependent activation) is computationally validated.

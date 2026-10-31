@@ -568,3 +568,11 @@ This becomes the "Methods rationale" section of the manuscript.
   - 13 GLP-1 arm contacts (covering both N-terminal activation residues and C-terminal ECD binding residues).
   - 1 clash (Min Dist 1.96 Å) — negligible for rigid docking, biologically acceptable.
 - **Verdict:** The cleaved product successfully engages the GLP-1R using the canonical GLP-1 binding footprint. The v3.2 Smart Bomb architecture (cleavage-dependent activation) is computationally validated.
+
+### 2026-XX-XX — v5.0 FINAL SEQUENCE LOCKED
+- **Architecture:** GLP-1 (A2G) + EAAAK + MANF + REEEKRIETDEKEERE + IgG1 Fc (LALA).
+- **SASA:** Granzyme B site (IETD) is 442.22 Å² exposed.
+- **PTMs:** Zero PTMs in payload/linkers (all safely in Fc).
+- **Cleavage:** No Furin/Thrombin sites. GzB site perfectly exposed.
+- **Immunogenicity:** Zero linear B-cell epitopes in linker; discontinuous score minimized via extreme electrostatic shielding.
+- **BLAST:** 100% human.

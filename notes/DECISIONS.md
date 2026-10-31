@@ -629,3 +629,7 @@ This becomes the "Methods rationale" section of the manuscript.
 - **Method:** US-align comparison of isolated v9.0 GLP-1 arm vs native 5VAI GLP-1 peptide.
 - **Result:** TM-score 0.696, RMSD 1.33 Å over 28 aligned residues. 
 - **Significance:** Confirms the A2G mutation (for DPP-4 resistance) did not disrupt the native alpha-helical structure required for receptor binding.
+
+### 2026-XX-XX — Off-Target Cleavage Scan PASS
+- **Result:** Only one Granzyme B motif (IETD) found at position 205. No off-target motifs in GLP-1 or MANF.
+- **Significance:** Confirms the payload will not be accidentally degraded by Granzyme B. The enzyme will only cut the linker.

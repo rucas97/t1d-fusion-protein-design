@@ -1,34 +1,33 @@
-# Wet-Lab Experimental Roadmap & Acceptance Criteria
+# Wet-Lab Roadmap: v9.0 Smart Bomb
 
-This document outlines the experimental assays required to transition the v2.0 construct from *in silico* predictions to experimentally validated facts, directly addressing the scientific reviewer's requirements.
+This document outlines the exact experimental pipeline required to validate the v9.0 construct in vitro and in vivo.
 
-## Priority 1: Construct Identity & Product Architecture
-*   **Assay:** Intact Mass Spectrometry & Peptide Mapping.
-*   **Acceptance Criterion:** Mass matches the 75 kDa theoretical mass (minus signal peptide). Peptide mapping confirms the presence of the R587A mutation and correct domain boundaries. Disulfide mapping confirms the predicted Fcµ internal bonds.
+## Phase 1: Expression, Purification & Quality Control
+*   **1.1 Construct Design:** Clone the v9.0 gene into a mammalian expression vector (e.g., pcDNA3.4) with an N-terminal IgG1 signal peptide and a C-terminal His-tag.
+*   **1.2 Expression:** Transfect into ExpiCHO-S cells. Cultivate for 7-10 days.
+*   **1.3 Purification:** Harvest supernatant, filter, and purify using Ni-NTA affinity chromatography followed by Size Exclusion Chromatography (SEC).
+*   **1.4 Quality Control (QC):** 
+    *   Run SDS-PAGE to confirm purity (~50 kDa for intact drug).
+    *   Use LC-MS to verify the N-glycosylation at the `NST` site in the linker.
+    *   Endotoxin testing (must be < 0.1 EU/ug for in vivo use).
 
-## Priority 2: Proteolytic Processing (Spatial Activation)
-*   **Assay:** In vitro cleavage assay with recombinant PC2 and Furin.
-*   **Acceptance Criterion:** Incubation with Furin at pH 7.4 results in >90% intact protein (resistance). Incubation with PC2 at pH 5.5 results in specific cleavage at the KR motif, producing the expected GLP-1 and MANF-Fcµ fragments (confirmed by SDS-PAGE and Western blot).
+## Phase 2: Protease Cleavage & Stability Assays (In Vitro)
+*   **2.1 Granzyme B Cleavage Assay:** Incubate v9.0 with recombinant human Granzyme B at 37°C. Run on SDS-PAGE at 0, 15, 30, and 60 minutes. 
+    *   *Expected:* The 50 kDa intact band should disappear, and a 23 kDa payload band (GLP-1+MANF) should appear.
+*   **2.2 DPP-4 Resistance Assay:** Incubate the cleaved payload with human DPP-4 for 24 hours. Run LC-MS.
+    *   *Expected:* The A2G mutation should keep the GLP-1 arm intact (no cleavage).
+*   **2.3 Serum Stability:** Incubate intact v9.0 in human serum at 37°C for 7 days. 
+    *   *Expected:* The intact drug should remain stable (protected by the Fc tail).
 
-## Priority 3: Mechanism Validation (Independent)
-### 3a. GLP-1R Agonism
-*   **Assay:** cAMP accumulation assay (HTRF) in GLP-1R expressing HEK293 cells.
-*   **Acceptance Criterion:** Dose-dependent cAMP increase with an EC50 within 10-fold of native GLP-1 (7-37). No activation of Glucagon or GIP receptors (cross-reactivity test).
-### 3b. MANF Function
-*   **Assay:** ER-stress protection assay in INS-1E or human islet cells treated with Thapsigargin/cytokines.
-*   **Acceptance Criterion:** >50% reduction in apoptosis (Caspase-3/7 activity) compared to untreated stressed cells.
-### 3c. FcµR Binding (Immune Shielding)
-*   **Assay:** Surface Plasmon Resonance (SPR) with immobilized human FcµR.
-*   **Acceptance Criterion:** Measurable binding affinity (Kd) in the low micromolar to nanomolar range, confirming the HDOCK prediction.
+## Phase 3: Functional Assays (Cell Culture)
+*   **3.1 GLP-1R Activation (cAMP Assay):** Treat INS-1 cells (rat β-cells) with the cleaved payload. Measure intracellular cAMP levels via ELISA.
+    *   *Expected:* Dose-dependent cAMP increase, proving the payload activates GLP-1R.
+*   **3.2 Off-Target Specificity (GCGR Assay):** Treat GCGR-expressing cells with the cleaved payload. Measure cAMP.
+    *   *Expected:* No significant cAMP increase, proving the drug does not activate the glucagon receptor.
+*   **3.3 ER-Stress Protection (Apoptosis Assay):** Treat β-cells with Thapsigargin (to induce ER stress). Add the cleaved payload and measure cell viability (MTT assay) and apoptosis markers (Caspase-3).
+    *   *Expected:* The MANF payload should rescue the cells from ER-stress-induced death.
 
-## Priority 4: Pharmacokinetics & Biodistribution
-*   **Assay:** PK study in wild-type mice (IV injection). Biodistribution via fluorescently labeled protein.
-*   **Acceptance Criterion:** Serum half-life > 24 hours. Fluorescence detected in the pancreatic islets.
-
-## Priority 5: Safety & Metabolic
-*   **Assay:** Glucose tolerance test (GTT) and Insulin tolerance test (ITT) in STZ-diabetic mice. 
-*   **Acceptance Criterion:** Restoration of glycemic control without inducing severe hypoglycemia (fasting glucose > 70 mg/dL).
-
-## Priority 6: In Vivo Efficacy
-*   **Assay:** NOD mouse model (spontaneous T1D).
-*   **Acceptance Criterion:** Delay or prevention of diabetes onset. Histological analysis shows preserved beta-cell mass (insulin staining) and increased Treg infiltration (FoxP3 staining) in the islets.
+## Phase 4: In Vivo Efficacy (Animal Models)
+*   **4.1 Pharmacokinetics (PK):** Inject v9.0 into wild-type mice (IV). Measure blood concentration over 14 days to confirm FcRn recycling half-life.
+*   **4.2 Efficacy in NOD Mice:** Treat early-stage diabetic NOD mice with v9.0 (weekly injections). Monitor blood glucose, insulin levels, and islet histology.
+    *   *Expected:* Halt in β-cell destruction, preservation of insulin-producing islets, and prevention of hyperglycemia.

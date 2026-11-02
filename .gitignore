@@ -24,3 +24,9 @@ trajectory.pdb
 *.tar.gz
 *.cif
 *.pdb.gz
+
+# Local structure/analysis artifacts
+structures/gcgr_af.pdb
+structures/gcgr_noh.pdb
+*.fasta
+furin_motif_analysis.py
